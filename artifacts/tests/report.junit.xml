@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="12" assertions="36" failures="0" errors="0" time="0.228667">
+    <testsuite name="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" namespace="Icecave\Parity" fullPackage="Icecave.Parity" tests="6" assertions="18" failures="0" errors="0" time="0.105936">
+      <testcase name="testIsEqualTo" class="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" line="30" assertions="3" time="0.027706"/>
+      <testcase name="testIsNotEqualTo" class="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" line="37" assertions="3" time="0.015494"/>
+      <testcase name="testIsLessThan" class="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" line="44" assertions="3" time="0.015786"/>
+      <testcase name="testIsGreaterThan" class="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" line="51" assertions="3" time="0.015743"/>
+      <testcase name="testIsLessThanOrEqualTo" class="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" line="58" assertions="3" time="0.015769"/>
+      <testcase name="testIsGreaterThanOrEqualTo" class="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" line="65" assertions="3" time="0.015438"/>
+    </testsuite>
+    <testsuite name="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" namespace="Icecave\Parity\Comparator" fullPackage="Icecave.Parity.Comparator" tests="6" assertions="18" failures="0" errors="0" time="0.122731">
+      <testcase name="testIsEqualTo" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="31" assertions="3" time="0.030190"/>
+      <testcase name="testIsNotEqualTo" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="38" assertions="3" time="0.019507"/>
+      <testcase name="testIsLessThan" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="45" assertions="3" time="0.018178"/>
+      <testcase name="testIsGreaterThan" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="52" assertions="3" time="0.018136"/>
+      <testcase name="testIsLessThanOrEqualTo" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="59" assertions="3" time="0.018411"/>
+      <testcase name="testIsGreaterThanOrEqualTo" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="66" assertions="3" time="0.018309"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+TAP version 13
+ok 1 - Icecave\Parity\AbstractComparableTest::testIsEqualTo
+ok 2 - Icecave\Parity\AbstractComparableTest::testIsNotEqualTo
+ok 3 - Icecave\Parity\AbstractComparableTest::testIsLessThan
+ok 4 - Icecave\Parity\AbstractComparableTest::testIsGreaterThan
+ok 5 - Icecave\Parity\AbstractComparableTest::testIsLessThanOrEqualTo
+ok 6 - Icecave\Parity\AbstractComparableTest::testIsGreaterThanOrEqualTo
+ok 7 - Icecave\Parity\Comparator\AbstractComparatorTest::testIsEqualTo
+ok 8 - Icecave\Parity\Comparator\AbstractComparatorTest::testIsNotEqualTo
+ok 9 - Icecave\Parity\Comparator\AbstractComparatorTest::testIsLessThan
+ok 10 - Icecave\Parity\Comparator\AbstractComparatorTest::testIsGreaterThan
+ok 11 - Icecave\Parity\Comparator\AbstractComparatorTest::testIsLessThanOrEqualTo
+ok 12 - Icecave\Parity\Comparator\AbstractComparatorTest::testIsGreaterThanOrEqualTo
+1..12

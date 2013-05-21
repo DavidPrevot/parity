@@ -1,0 +1,14 @@
+
+
+Code Coverage Report 
+  2013-05-21 01:01:11
+
+ Summary: 
+  Classes: 33.33% (2/6)
+  Methods: 41.38% (12/29)
+  Lines:   11.32% (12/106)
+
+\Icecave\Parity::AbstractComparable
+  Methods: 100.00% ( 6/ 6)   Lines: 100.00% (  6/  6)
+\Icecave\Parity\Comparator::AbstractComparator
+  Methods: 100.00% ( 6/ 6)   Lines: 100.00% (  6/  6)
