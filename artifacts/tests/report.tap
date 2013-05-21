@@ -5,10 +5,25 @@ ok 3 - Icecave\Parity\AbstractComparableTest::testIsLessThan
 ok 4 - Icecave\Parity\AbstractComparableTest::testIsGreaterThan
 ok 5 - Icecave\Parity\AbstractComparableTest::testIsLessThanOrEqualTo
 ok 6 - Icecave\Parity\AbstractComparableTest::testIsGreaterThanOrEqualTo
-ok 7 - Icecave\Parity\Comparator\AbstractComparatorTest::testIsEqualTo
-ok 8 - Icecave\Parity\Comparator\AbstractComparatorTest::testIsNotEqualTo
-ok 9 - Icecave\Parity\Comparator\AbstractComparatorTest::testIsLessThan
-ok 10 - Icecave\Parity\Comparator\AbstractComparatorTest::testIsGreaterThan
-ok 11 - Icecave\Parity\Comparator\AbstractComparatorTest::testIsLessThanOrEqualTo
-ok 12 - Icecave\Parity\Comparator\AbstractComparatorTest::testIsGreaterThanOrEqualTo
-1..12
+ok 7 - Icecave\Parity\Comparator\AbstractComparatorTest::testDefaultCompare
+ok 8 - Icecave\Parity\Comparator\AbstractComparatorTest::testCompareWithLHSComparable
+ok 9 - Icecave\Parity\Comparator\AbstractComparatorTest::testCompareWithLHSRestrictedComparable
+ok 10 - Icecave\Parity\Comparator\AbstractComparatorTest::testCompareWithLHSRestrictedComparableCanNotCompare
+ok 11 - Icecave\Parity\Comparator\AbstractComparatorTest::testCompareWithLHSDelegatingComparable
+ok 12 - Icecave\Parity\Comparator\AbstractComparatorTest::testCompareWithLHSDelegatingRestrictedComparable
+ok 13 - Icecave\Parity\Comparator\AbstractComparatorTest::testCompareWithLHSDelegatingRestrictedComparableCanNotCompare
+ok 14 - Icecave\Parity\Comparator\AbstractComparatorTest::testCompareWithRHSComparable
+ok 15 - Icecave\Parity\Comparator\AbstractComparatorTest::testCompareWithRHSRestrictedComparable
+ok 16 - Icecave\Parity\Comparator\AbstractComparatorTest::testCompareWithRHSRestrictedComparableCanNotCompare
+ok 17 - Icecave\Parity\Comparator\AbstractComparatorTest::testCompareWithRHSDelegatingComparable
+ok 18 - Icecave\Parity\Comparator\AbstractComparatorTest::testCompareWithRHSDelegatingRestrictedComparable
+ok 19 - Icecave\Parity\Comparator\AbstractComparatorTest::testCompareWithRHSDelegatingRestrictedComparableCanNotCompare
+ok 20 - Icecave\Parity\Comparator\AbstractComparatorTest::testCompareTwoRestrictedInverts
+ok 21 - Icecave\Parity\Comparator\AbstractComparatorTest::testCompareTwoDelegatingRestrictedInverts
+ok 22 - Icecave\Parity\ParityTest::testIsEqualTo
+ok 23 - Icecave\Parity\ParityTest::testIsNotEqualTo
+ok 24 - Icecave\Parity\ParityTest::testIsLessThan
+ok 25 - Icecave\Parity\ParityTest::testIsGreaterThan
+ok 26 - Icecave\Parity\ParityTest::testIsLessThanOrEqualTo
+ok 27 - Icecave\Parity\ParityTest::testIsGreaterThanOrEqualTo
+1..27
