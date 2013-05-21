@@ -20,10 +20,25 @@ ok 18 - Icecave\Parity\Comparator\AbstractComparatorTest::testCompareWithRHSDele
 ok 19 - Icecave\Parity\Comparator\AbstractComparatorTest::testCompareWithRHSDelegatingRestrictedComparableCanNotCompare
 ok 20 - Icecave\Parity\Comparator\AbstractComparatorTest::testCompareTwoRestrictedInverts
 ok 21 - Icecave\Parity\Comparator\AbstractComparatorTest::testCompareTwoDelegatingRestrictedInverts
-ok 22 - Icecave\Parity\ParityTest::testIsEqualTo
-ok 23 - Icecave\Parity\ParityTest::testIsNotEqualTo
-ok 24 - Icecave\Parity\ParityTest::testIsLessThan
-ok 25 - Icecave\Parity\ParityTest::testIsGreaterThan
-ok 26 - Icecave\Parity\ParityTest::testIsLessThanOrEqualTo
-ok 27 - Icecave\Parity\ParityTest::testIsGreaterThanOrEqualTo
-1..27
+ok 22 - Icecave\Parity\Comparator\ComparatorTest::testDefaultCompare
+ok 23 - Icecave\Parity\Comparator\DeepComparatorTest::testDefaultCompareBasic
+ok 24 - Icecave\Parity\Exception\NotComparableExceptionTest::testException
+ok 25 - Icecave\Parity\ExtendedComparableTraitTest::testIsEqualTo
+ok 26 - Icecave\Parity\ExtendedComparableTraitTest::testIsNotEqualTo
+ok 27 - Icecave\Parity\ExtendedComparableTraitTest::testIsLessThan
+ok 28 - Icecave\Parity\ExtendedComparableTraitTest::testIsGreaterThan
+ok 29 - Icecave\Parity\ExtendedComparableTraitTest::testIsLessThanOrEqualTo
+ok 30 - Icecave\Parity\ExtendedComparableTraitTest::testIsGreaterThanOrEqualTo
+ok 31 - Icecave\Parity\ParityTest::testIsEqualTo
+ok 32 - Icecave\Parity\ParityTest::testIsNotEqualTo
+ok 33 - Icecave\Parity\ParityTest::testIsLessThan
+ok 34 - Icecave\Parity\ParityTest::testIsGreaterThan
+ok 35 - Icecave\Parity\ParityTest::testIsLessThanOrEqualTo
+ok 36 - Icecave\Parity\ParityTest::testIsGreaterThanOrEqualTo
+ok 37 - Icecave\Parity\ParityTest::testIsEqualToWithDefaultComparator
+ok 38 - Icecave\Parity\ParityTest::testIsNotEqualToWithDefaultComparator
+ok 39 - Icecave\Parity\ParityTest::testIsLessThanWithDefaultComparator
+ok 40 - Icecave\Parity\ParityTest::testIsGreaterThanWithDefaultComparator
+ok 41 - Icecave\Parity\ParityTest::testIsLessThanOrEqualToWithDefaultComparator
+ok 42 - Icecave\Parity\ParityTest::testIsGreaterThanOrEqualToWithDefaultComparator
+1..42
