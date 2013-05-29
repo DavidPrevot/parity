@@ -1,12 +1,12 @@
 
 
 Code Coverage Report 
-  2013-05-28 06:44:03
+  2013-05-29 07:55:43
 
  Summary: 
   Classes: 100.00% (7/7)
   Methods: 100.00% (32/32)
-  Lines:   100.00% (144/144)
+  Lines:   100.00% (148/148)
 
 \Icecave\Parity::AbstractComparable
   Methods: 100.00% ( 7/ 7)   Lines: 100.00% ( 14/ 14)
@@ -17,8 +17,8 @@ Code Coverage Report
 \Icecave\Parity\Comparator::AbstractComparator
   Methods:  75.00% ( 3/ 4)   Lines: 100.00% ( 16/ 16)
 \Icecave\Parity\Comparator::Comparator
-  Methods: 100.00% ( 2/ 2)   Lines: 100.00% (  9/  9)
+  Methods: 100.00% ( 2/ 2)   Lines: 100.00% ( 11/ 11)
 \Icecave\Parity\Comparator::DeepComparator
-  Methods: 100.00% ( 6/ 6)   Lines: 100.00% ( 67/ 67)
+  Methods: 100.00% ( 6/ 6)   Lines: 100.00% ( 69/ 69)
 \Icecave\Parity\Exception::NotComparableException
   Methods: 100.00% ( 1/ 1)   Lines: 100.00% ( 10/ 10)
