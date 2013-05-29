@@ -1,626 +1,626 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="603" assertions="1326" failures="0" errors="0" time="3.969256">
-    <testsuite name="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" namespace="Icecave\Parity" fullPackage="Icecave.Parity" tests="6" assertions="18" failures="0" errors="0" time="0.101561">
-      <testcase name="testIsEqualTo" class="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" line="30" assertions="3" time="0.026287"/>
-      <testcase name="testIsNotEqualTo" class="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" line="37" assertions="3" time="0.015390"/>
-      <testcase name="testIsLessThan" class="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" line="44" assertions="3" time="0.015034"/>
-      <testcase name="testIsGreaterThan" class="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" line="51" assertions="3" time="0.014869"/>
-      <testcase name="testIsLessThanOrEqualTo" class="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" line="58" assertions="3" time="0.015022"/>
-      <testcase name="testIsGreaterThanOrEqualTo" class="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" line="65" assertions="3" time="0.014959"/>
+  <testsuite name="" tests="603" assertions="1326" failures="0" errors="0" time="3.973634">
+    <testsuite name="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" namespace="Icecave\Parity" fullPackage="Icecave.Parity" tests="6" assertions="18" failures="0" errors="0" time="0.103185">
+      <testcase name="testIsEqualTo" class="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" line="30" assertions="3" time="0.026548"/>
+      <testcase name="testIsNotEqualTo" class="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" line="37" assertions="3" time="0.015537"/>
+      <testcase name="testIsLessThan" class="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" line="44" assertions="3" time="0.015403"/>
+      <testcase name="testIsGreaterThan" class="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" line="51" assertions="3" time="0.014964"/>
+      <testcase name="testIsLessThanOrEqualTo" class="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" line="58" assertions="3" time="0.015272"/>
+      <testcase name="testIsGreaterThanOrEqualTo" class="Icecave\Parity\AbstractComparableTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/AbstractComparableTest.php" line="65" assertions="3" time="0.015461"/>
     </testsuite>
-    <testsuite name="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" namespace="Icecave\Parity\Comparator" fullPackage="Icecave.Parity.Comparator" tests="15" assertions="40" failures="0" errors="0" time="0.351817">
-      <testcase name="testDefaultCompare" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="50" assertions="2" time="0.033718"/>
-      <testcase name="testCompareWithLHSComparable" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="57" assertions="2" time="0.018337"/>
-      <testcase name="testCompareWithLHSRestrictedComparable" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="64" assertions="3" time="0.021801"/>
-      <testcase name="testCompareWithLHSRestrictedComparableCanNotCompare" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="74" assertions="4" time="0.024951"/>
-      <testcase name="testCompareWithLHSDelegatingComparable" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="89" assertions="2" time="0.019089"/>
-      <testcase name="testCompareWithLHSDelegatingRestrictedComparable" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="96" assertions="3" time="0.022764"/>
-      <testcase name="testCompareWithLHSDelegatingRestrictedComparableCanNotCompare" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="106" assertions="4" time="0.025726"/>
-      <testcase name="testCompareWithRHSComparable" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="121" assertions="2" time="0.018492"/>
-      <testcase name="testCompareWithRHSRestrictedComparable" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="128" assertions="3" time="0.022379"/>
-      <testcase name="testCompareWithRHSRestrictedComparableCanNotCompare" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="138" assertions="4" time="0.025467"/>
-      <testcase name="testCompareWithRHSDelegatingComparable" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="153" assertions="2" time="0.019061"/>
-      <testcase name="testCompareWithRHSDelegatingRestrictedComparable" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="160" assertions="3" time="0.023989"/>
-      <testcase name="testCompareWithRHSDelegatingRestrictedComparableCanNotCompare" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="170" assertions="4" time="0.024844"/>
-      <testcase name="testCompareTwoRestrictedInverts" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="185" assertions="1" time="0.025303"/>
-      <testcase name="testCompareTwoDelegatingRestrictedInverts" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="203" assertions="1" time="0.025896"/>
+    <testsuite name="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" namespace="Icecave\Parity\Comparator" fullPackage="Icecave.Parity.Comparator" tests="15" assertions="40" failures="0" errors="0" time="0.352381">
+      <testcase name="testDefaultCompare" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="50" assertions="2" time="0.031264"/>
+      <testcase name="testCompareWithLHSComparable" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="57" assertions="2" time="0.019181"/>
+      <testcase name="testCompareWithLHSRestrictedComparable" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="64" assertions="3" time="0.022406"/>
+      <testcase name="testCompareWithLHSRestrictedComparableCanNotCompare" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="74" assertions="4" time="0.025036"/>
+      <testcase name="testCompareWithLHSDelegatingComparable" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="89" assertions="2" time="0.019256"/>
+      <testcase name="testCompareWithLHSDelegatingRestrictedComparable" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="96" assertions="3" time="0.023030"/>
+      <testcase name="testCompareWithLHSDelegatingRestrictedComparableCanNotCompare" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="106" assertions="4" time="0.025527"/>
+      <testcase name="testCompareWithRHSComparable" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="121" assertions="2" time="0.019158"/>
+      <testcase name="testCompareWithRHSRestrictedComparable" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="128" assertions="3" time="0.022513"/>
+      <testcase name="testCompareWithRHSRestrictedComparableCanNotCompare" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="138" assertions="4" time="0.025179"/>
+      <testcase name="testCompareWithRHSDelegatingComparable" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="153" assertions="2" time="0.019365"/>
+      <testcase name="testCompareWithRHSDelegatingRestrictedComparable" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="160" assertions="3" time="0.023807"/>
+      <testcase name="testCompareWithRHSDelegatingRestrictedComparableCanNotCompare" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="170" assertions="4" time="0.025068"/>
+      <testcase name="testCompareTwoRestrictedInverts" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="185" assertions="1" time="0.025321"/>
+      <testcase name="testCompareTwoDelegatingRestrictedInverts" class="Icecave\Parity\Comparator\AbstractComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/AbstractComparatorTest.php" line="203" assertions="1" time="0.026270"/>
     </testsuite>
-    <testsuite name="Icecave\Parity\Comparator\ComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/ComparatorTest.php" namespace="Icecave\Parity\Comparator" fullPackage="Icecave.Parity.Comparator" tests="269" assertions="539" failures="0" errors="0" time="1.520673">
-      <testsuite name="Icecave\Parity\Comparator\ComparatorTest::testDefaultCompareDifferentTypes" tests="268" assertions="536" failures="0" errors="0" time="1.514869">
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Boolean False&quot;" assertions="2" time="0.008005"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Boolean True&quot;" assertions="2" time="0.005226"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Integer Zero&quot;" assertions="2" time="0.005218"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Integer One&quot;" assertions="2" time="0.005218"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Double Zero&quot;" assertions="2" time="0.005263"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Double One&quot;" assertions="2" time="0.005237"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and String Empty&quot;" assertions="2" time="0.005189"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and String Space&quot;" assertions="2" time="0.005232"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and String Zero&quot;" assertions="2" time="0.005440"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Array Empty&quot;" assertions="2" time="0.005286"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Array Zero&quot;" assertions="2" time="0.005252"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Array One&quot;" assertions="2" time="0.005197"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and StdClass Empty&quot;" assertions="2" time="0.005359"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and StdClass One&quot;" assertions="2" time="0.005278"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Class Empty&quot;" assertions="2" time="0.005229"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Class Zero&quot;" assertions="2" time="0.005246"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Class One&quot;" assertions="2" time="0.005260"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Null&quot;" assertions="2" time="0.005403"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Integer Zero&quot;" assertions="2" time="0.005209"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Integer One&quot;" assertions="2" time="0.005258"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Double Zero&quot;" assertions="2" time="0.005183"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Double One&quot;" assertions="2" time="0.005247"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and String Empty&quot;" assertions="2" time="0.005333"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and String Space&quot;" assertions="2" time="0.005309"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and String Zero&quot;" assertions="2" time="0.005380"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Array Empty&quot;" assertions="2" time="0.005275"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Array Zero&quot;" assertions="2" time="0.005399"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Array One&quot;" assertions="2" time="0.005291"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and StdClass Empty&quot;" assertions="2" time="0.005290"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and StdClass One&quot;" assertions="2" time="0.005261"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Class Empty&quot;" assertions="2" time="0.005225"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Class Zero&quot;" assertions="2" time="0.005264"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Class One&quot;" assertions="2" time="0.005329"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Null&quot;" assertions="2" time="0.005292"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Integer Zero&quot;" assertions="2" time="0.005266"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Integer One&quot;" assertions="2" time="0.005420"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Double Zero&quot;" assertions="2" time="0.005389"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Double One&quot;" assertions="2" time="0.005374"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and String Empty&quot;" assertions="2" time="0.005434"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and String Space&quot;" assertions="2" time="0.005338"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and String Zero&quot;" assertions="2" time="0.005242"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Array Empty&quot;" assertions="2" time="0.005315"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Array Zero&quot;" assertions="2" time="0.005272"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Array One&quot;" assertions="2" time="0.005253"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and StdClass Empty&quot;" assertions="2" time="0.005335"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and StdClass One&quot;" assertions="2" time="0.005420"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Class Empty&quot;" assertions="2" time="0.005406"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Class Zero&quot;" assertions="2" time="0.005291"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Class One&quot;" assertions="2" time="0.005313"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Null&quot;" assertions="2" time="0.005247"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Boolean False&quot;" assertions="2" time="0.005284"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Boolean True&quot;" assertions="2" time="0.005337"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Double Zero&quot;" assertions="2" time="0.005332"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Double One&quot;" assertions="2" time="0.005430"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and String Empty&quot;" assertions="2" time="0.005449"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and String Space&quot;" assertions="2" time="0.005821"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and String Zero&quot;" assertions="2" time="0.005683"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Array Empty&quot;" assertions="2" time="0.005636"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Array Zero&quot;" assertions="2" time="0.005618"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Array One&quot;" assertions="2" time="0.005764"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and StdClass Empty&quot;" assertions="2" time="0.005618"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and StdClass One&quot;" assertions="2" time="0.005578"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Class Empty&quot;" assertions="2" time="0.005665"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Class Zero&quot;" assertions="2" time="0.005563"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Class One&quot;" assertions="2" time="0.005782"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Null&quot;" assertions="2" time="0.005624"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Boolean False&quot;" assertions="2" time="0.005467"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Boolean True&quot;" assertions="2" time="0.005808"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Double Zero&quot;" assertions="2" time="0.005607"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Double One&quot;" assertions="2" time="0.005577"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and String Empty&quot;" assertions="2" time="0.005707"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and String Space&quot;" assertions="2" time="0.005383"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and String Zero&quot;" assertions="2" time="0.005504"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Array Empty&quot;" assertions="2" time="0.005374"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Array Zero&quot;" assertions="2" time="0.005329"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Array One&quot;" assertions="2" time="0.005354"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and StdClass Empty&quot;" assertions="2" time="0.005320"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and StdClass One&quot;" assertions="2" time="0.005511"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Class Empty&quot;" assertions="2" time="0.005301"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Class Zero&quot;" assertions="2" time="0.005403"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Class One&quot;" assertions="2" time="0.005366"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Null&quot;" assertions="2" time="0.005417"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Boolean False&quot;" assertions="2" time="0.005378"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Boolean True&quot;" assertions="2" time="0.005272"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Integer Zero&quot;" assertions="2" time="0.005380"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Integer One&quot;" assertions="2" time="0.005307"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and String Empty&quot;" assertions="2" time="0.005420"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and String Space&quot;" assertions="2" time="0.005465"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and String Zero&quot;" assertions="2" time="0.005496"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Array Empty&quot;" assertions="2" time="0.005384"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Array Zero&quot;" assertions="2" time="0.005363"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Array One&quot;" assertions="2" time="0.005631"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and StdClass Empty&quot;" assertions="2" time="0.005449"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and StdClass One&quot;" assertions="2" time="0.005400"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Class Empty&quot;" assertions="2" time="0.005378"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Class Zero&quot;" assertions="2" time="0.005377"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Class One&quot;" assertions="2" time="0.005325"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Null&quot;" assertions="2" time="0.005294"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Boolean False&quot;" assertions="2" time="0.005375"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Boolean True&quot;" assertions="2" time="0.005365"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Integer Zero&quot;" assertions="2" time="0.005502"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Integer One&quot;" assertions="2" time="0.005416"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and String Empty&quot;" assertions="2" time="0.005442"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and String Space&quot;" assertions="2" time="0.005424"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and String Zero&quot;" assertions="2" time="0.005413"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Array Empty&quot;" assertions="2" time="0.005477"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Array Zero&quot;" assertions="2" time="0.005454"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Array One&quot;" assertions="2" time="0.005273"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and StdClass Empty&quot;" assertions="2" time="0.005323"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and StdClass One&quot;" assertions="2" time="0.005370"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Class Empty&quot;" assertions="2" time="0.005368"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Class Zero&quot;" assertions="2" time="0.005326"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Class One&quot;" assertions="2" time="0.005423"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Null&quot;" assertions="2" time="0.005414"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Boolean False&quot;" assertions="2" time="0.005299"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Boolean True&quot;" assertions="2" time="0.005302"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Integer Zero&quot;" assertions="2" time="0.005454"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Integer One&quot;" assertions="2" time="0.005313"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Double Zero&quot;" assertions="2" time="0.005375"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Double One&quot;" assertions="2" time="0.005311"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Array Empty&quot;" assertions="2" time="0.005329"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Array Zero&quot;" assertions="2" time="0.005374"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Array One&quot;" assertions="2" time="0.005361"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and StdClass Empty&quot;" assertions="2" time="0.005385"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and StdClass One&quot;" assertions="2" time="0.005496"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Class Empty&quot;" assertions="2" time="0.005365"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Class Zero&quot;" assertions="2" time="0.005337"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Class One&quot;" assertions="2" time="0.005361"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Null&quot;" assertions="2" time="0.005385"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Boolean False&quot;" assertions="2" time="0.005362"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Boolean True&quot;" assertions="2" time="0.005387"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Integer Zero&quot;" assertions="2" time="0.005419"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Integer One&quot;" assertions="2" time="0.005388"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Double Zero&quot;" assertions="2" time="0.005444"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Double One&quot;" assertions="2" time="0.005365"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Array Empty&quot;" assertions="2" time="0.005435"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Array Zero&quot;" assertions="2" time="0.005398"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Array One&quot;" assertions="2" time="0.005446"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and StdClass Empty&quot;" assertions="2" time="0.005337"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and StdClass One&quot;" assertions="2" time="0.005357"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Class Empty&quot;" assertions="2" time="0.006259"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Class Zero&quot;" assertions="2" time="0.005659"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Class One&quot;" assertions="2" time="0.007172"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Null&quot;" assertions="2" time="0.006964"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Boolean False&quot;" assertions="2" time="0.007108"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Boolean True&quot;" assertions="2" time="0.006956"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Integer Zero&quot;" assertions="2" time="0.007094"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Integer One&quot;" assertions="2" time="0.007032"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Double Zero&quot;" assertions="2" time="0.006943"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Double One&quot;" assertions="2" time="0.007072"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Array Empty&quot;" assertions="2" time="0.006840"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Array Zero&quot;" assertions="2" time="0.007172"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Array One&quot;" assertions="2" time="0.006881"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and StdClass Empty&quot;" assertions="2" time="0.007396"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and StdClass One&quot;" assertions="2" time="0.006805"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Class Empty&quot;" assertions="2" time="0.006960"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Class Zero&quot;" assertions="2" time="0.006783"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Class One&quot;" assertions="2" time="0.007001"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Null&quot;" assertions="2" time="0.007045"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Boolean False&quot;" assertions="2" time="0.006765"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Boolean True&quot;" assertions="2" time="0.007332"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Integer Zero&quot;" assertions="2" time="0.006544"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Integer One&quot;" assertions="2" time="0.007165"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Double Zero&quot;" assertions="2" time="0.006616"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Double One&quot;" assertions="2" time="0.006604"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and String Empty&quot;" assertions="2" time="0.007235"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and String Space&quot;" assertions="2" time="0.007279"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and String Zero&quot;" assertions="2" time="0.007344"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and StdClass Empty&quot;" assertions="2" time="0.006592"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and StdClass One&quot;" assertions="2" time="0.007136"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Class Empty&quot;" assertions="2" time="0.006841"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Class Zero&quot;" assertions="2" time="0.006846"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Class One&quot;" assertions="2" time="0.007026"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Null&quot;" assertions="2" time="0.006740"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Boolean False&quot;" assertions="2" time="0.005541"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Boolean True&quot;" assertions="2" time="0.005690"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Integer Zero&quot;" assertions="2" time="0.005545"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Integer One&quot;" assertions="2" time="0.005476"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Double Zero&quot;" assertions="2" time="0.005661"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Double One&quot;" assertions="2" time="0.006039"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and String Empty&quot;" assertions="2" time="0.005651"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and String Space&quot;" assertions="2" time="0.005645"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and String Zero&quot;" assertions="2" time="0.005580"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and StdClass Empty&quot;" assertions="2" time="0.005609"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and StdClass One&quot;" assertions="2" time="0.005497"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Class Empty&quot;" assertions="2" time="0.005483"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Class Zero&quot;" assertions="2" time="0.005500"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Class One&quot;" assertions="2" time="0.005429"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Null&quot;" assertions="2" time="0.005521"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Boolean False&quot;" assertions="2" time="0.005478"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Boolean True&quot;" assertions="2" time="0.005556"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Integer Zero&quot;" assertions="2" time="0.005556"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Integer One&quot;" assertions="2" time="0.005620"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Double Zero&quot;" assertions="2" time="0.005665"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Double One&quot;" assertions="2" time="0.005710"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and String Empty&quot;" assertions="2" time="0.006592"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and String Space&quot;" assertions="2" time="0.005653"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and String Zero&quot;" assertions="2" time="0.005534"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and StdClass Empty&quot;" assertions="2" time="0.005644"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and StdClass One&quot;" assertions="2" time="0.005585"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Class Empty&quot;" assertions="2" time="0.005807"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Class Zero&quot;" assertions="2" time="0.005772"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Class One&quot;" assertions="2" time="0.006553"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Null&quot;" assertions="2" time="0.005556"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Boolean False&quot;" assertions="2" time="0.005573"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Boolean True&quot;" assertions="2" time="0.005476"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Integer Zero&quot;" assertions="2" time="0.005364"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Integer One&quot;" assertions="2" time="0.005853"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Double Zero&quot;" assertions="2" time="0.005912"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Double One&quot;" assertions="2" time="0.005819"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and String Empty&quot;" assertions="2" time="0.005696"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and String Space&quot;" assertions="2" time="0.005886"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and String Zero&quot;" assertions="2" time="0.006880"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Array Empty&quot;" assertions="2" time="0.005771"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Array Zero&quot;" assertions="2" time="0.005501"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Array One&quot;" assertions="2" time="0.005404"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Null&quot;" assertions="2" time="0.005376"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Boolean False&quot;" assertions="2" time="0.005371"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Boolean True&quot;" assertions="2" time="0.005705"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Integer Zero&quot;" assertions="2" time="0.005574"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Integer One&quot;" assertions="2" time="0.005423"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Double Zero&quot;" assertions="2" time="0.005584"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Double One&quot;" assertions="2" time="0.005390"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and String Empty&quot;" assertions="2" time="0.005389"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and String Space&quot;" assertions="2" time="0.005354"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and String Zero&quot;" assertions="2" time="0.005426"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Array Empty&quot;" assertions="2" time="0.005419"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Array Zero&quot;" assertions="2" time="0.005396"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Array One&quot;" assertions="2" time="0.005391"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Null&quot;" assertions="2" time="0.005401"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Boolean False&quot;" assertions="2" time="0.005386"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Boolean True&quot;" assertions="2" time="0.005400"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Integer Zero&quot;" assertions="2" time="0.005382"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Integer One&quot;" assertions="2" time="0.005586"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Double Zero&quot;" assertions="2" time="0.005355"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Double One&quot;" assertions="2" time="0.005379"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and String Empty&quot;" assertions="2" time="0.005663"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and String Space&quot;" assertions="2" time="0.005483"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and String Zero&quot;" assertions="2" time="0.005350"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Array Empty&quot;" assertions="2" time="0.005436"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Array Zero&quot;" assertions="2" time="0.005443"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Array One&quot;" assertions="2" time="0.005414"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Null&quot;" assertions="2" time="0.005408"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Boolean False&quot;" assertions="2" time="0.005529"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Boolean True&quot;" assertions="2" time="0.005500"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Integer Zero&quot;" assertions="2" time="0.005459"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Integer One&quot;" assertions="2" time="0.005447"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Double Zero&quot;" assertions="2" time="0.005366"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Double One&quot;" assertions="2" time="0.005406"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and String Empty&quot;" assertions="2" time="0.005532"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and String Space&quot;" assertions="2" time="0.005358"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and String Zero&quot;" assertions="2" time="0.005485"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Array Empty&quot;" assertions="2" time="0.005431"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Array Zero&quot;" assertions="2" time="0.005330"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Array One&quot;" assertions="2" time="0.005426"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Null&quot;" assertions="2" time="0.006394"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Boolean False&quot;" assertions="2" time="0.005396"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Boolean True&quot;" assertions="2" time="0.005376"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Integer Zero&quot;" assertions="2" time="0.005412"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Integer One&quot;" assertions="2" time="0.005565"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Double Zero&quot;" assertions="2" time="0.005405"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Double One&quot;" assertions="2" time="0.005604"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and String Empty&quot;" assertions="2" time="0.005388"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and String Space&quot;" assertions="2" time="0.005461"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and String Zero&quot;" assertions="2" time="0.005448"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Array Empty&quot;" assertions="2" time="0.005370"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Array Zero&quot;" assertions="2" time="0.005458"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Array One&quot;" assertions="2" time="0.005467"/>
+    <testsuite name="Icecave\Parity\Comparator\ComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/ComparatorTest.php" namespace="Icecave\Parity\Comparator" fullPackage="Icecave.Parity.Comparator" tests="269" assertions="539" failures="0" errors="0" time="1.476042">
+      <testsuite name="Icecave\Parity\Comparator\ComparatorTest::testDefaultCompareDifferentTypes" tests="268" assertions="536" failures="0" errors="0" time="1.470087">
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Boolean False&quot;" assertions="2" time="0.008165"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Boolean True&quot;" assertions="2" time="0.005270"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Integer Zero&quot;" assertions="2" time="0.005324"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Integer One&quot;" assertions="2" time="0.005287"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Double Zero&quot;" assertions="2" time="0.005279"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Double One&quot;" assertions="2" time="0.005481"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and String Empty&quot;" assertions="2" time="0.005314"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and String Space&quot;" assertions="2" time="0.005437"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and String Zero&quot;" assertions="2" time="0.005442"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Array Empty&quot;" assertions="2" time="0.005335"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Array Zero&quot;" assertions="2" time="0.005276"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Array One&quot;" assertions="2" time="0.005302"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and StdClass Empty&quot;" assertions="2" time="0.005303"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and StdClass One&quot;" assertions="2" time="0.005374"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Class Empty&quot;" assertions="2" time="0.005378"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Class Zero&quot;" assertions="2" time="0.005317"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Class One&quot;" assertions="2" time="0.005397"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Null&quot;" assertions="2" time="0.005337"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Integer Zero&quot;" assertions="2" time="0.005459"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Integer One&quot;" assertions="2" time="0.005432"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Double Zero&quot;" assertions="2" time="0.005416"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Double One&quot;" assertions="2" time="0.005298"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and String Empty&quot;" assertions="2" time="0.005352"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and String Space&quot;" assertions="2" time="0.005367"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and String Zero&quot;" assertions="2" time="0.005400"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Array Empty&quot;" assertions="2" time="0.005298"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Array Zero&quot;" assertions="2" time="0.005478"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Array One&quot;" assertions="2" time="0.005408"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and StdClass Empty&quot;" assertions="2" time="0.005352"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and StdClass One&quot;" assertions="2" time="0.005365"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Class Empty&quot;" assertions="2" time="0.005448"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Class Zero&quot;" assertions="2" time="0.005377"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Class One&quot;" assertions="2" time="0.005508"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Null&quot;" assertions="2" time="0.005369"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Integer Zero&quot;" assertions="2" time="0.005376"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Integer One&quot;" assertions="2" time="0.005338"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Double Zero&quot;" assertions="2" time="0.005368"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Double One&quot;" assertions="2" time="0.005420"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and String Empty&quot;" assertions="2" time="0.005371"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and String Space&quot;" assertions="2" time="0.005476"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and String Zero&quot;" assertions="2" time="0.005575"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Array Empty&quot;" assertions="2" time="0.005359"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Array Zero&quot;" assertions="2" time="0.005329"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Array One&quot;" assertions="2" time="0.005328"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and StdClass Empty&quot;" assertions="2" time="0.005388"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and StdClass One&quot;" assertions="2" time="0.005547"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Class Empty&quot;" assertions="2" time="0.005407"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Class Zero&quot;" assertions="2" time="0.005326"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Class One&quot;" assertions="2" time="0.005525"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Null&quot;" assertions="2" time="0.005361"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Boolean False&quot;" assertions="2" time="0.005330"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Boolean True&quot;" assertions="2" time="0.005507"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Double Zero&quot;" assertions="2" time="0.005535"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Double One&quot;" assertions="2" time="0.005442"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and String Empty&quot;" assertions="2" time="0.005516"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and String Space&quot;" assertions="2" time="0.005450"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and String Zero&quot;" assertions="2" time="0.005415"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Array Empty&quot;" assertions="2" time="0.005424"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Array Zero&quot;" assertions="2" time="0.005549"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Array One&quot;" assertions="2" time="0.005426"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and StdClass Empty&quot;" assertions="2" time="0.005487"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and StdClass One&quot;" assertions="2" time="0.005480"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Class Empty&quot;" assertions="2" time="0.005497"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Class Zero&quot;" assertions="2" time="0.005578"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Class One&quot;" assertions="2" time="0.005472"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Null&quot;" assertions="2" time="0.005580"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Boolean False&quot;" assertions="2" time="0.005431"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Boolean True&quot;" assertions="2" time="0.005369"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Double Zero&quot;" assertions="2" time="0.005404"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Double One&quot;" assertions="2" time="0.005439"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and String Empty&quot;" assertions="2" time="0.005420"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and String Space&quot;" assertions="2" time="0.005542"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and String Zero&quot;" assertions="2" time="0.005526"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Array Empty&quot;" assertions="2" time="0.005570"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Array Zero&quot;" assertions="2" time="0.005434"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Array One&quot;" assertions="2" time="0.005500"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and StdClass Empty&quot;" assertions="2" time="0.005483"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and StdClass One&quot;" assertions="2" time="0.005534"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Class Empty&quot;" assertions="2" time="0.005528"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Class Zero&quot;" assertions="2" time="0.005526"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Class One&quot;" assertions="2" time="0.005411"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Null&quot;" assertions="2" time="0.005429"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Boolean False&quot;" assertions="2" time="0.005417"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Boolean True&quot;" assertions="2" time="0.005468"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Integer Zero&quot;" assertions="2" time="0.005425"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Integer One&quot;" assertions="2" time="0.005458"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and String Empty&quot;" assertions="2" time="0.005423"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and String Space&quot;" assertions="2" time="0.005463"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and String Zero&quot;" assertions="2" time="0.005479"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Array Empty&quot;" assertions="2" time="0.005378"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Array Zero&quot;" assertions="2" time="0.005474"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Array One&quot;" assertions="2" time="0.005461"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and StdClass Empty&quot;" assertions="2" time="0.005613"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and StdClass One&quot;" assertions="2" time="0.005525"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Class Empty&quot;" assertions="2" time="0.005461"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Class Zero&quot;" assertions="2" time="0.005537"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Class One&quot;" assertions="2" time="0.005605"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Null&quot;" assertions="2" time="0.005512"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Boolean False&quot;" assertions="2" time="0.005586"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Boolean True&quot;" assertions="2" time="0.005494"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Integer Zero&quot;" assertions="2" time="0.005580"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Integer One&quot;" assertions="2" time="0.005433"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and String Empty&quot;" assertions="2" time="0.005539"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and String Space&quot;" assertions="2" time="0.005619"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and String Zero&quot;" assertions="2" time="0.005551"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Array Empty&quot;" assertions="2" time="0.005506"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Array Zero&quot;" assertions="2" time="0.005539"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Array One&quot;" assertions="2" time="0.005540"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and StdClass Empty&quot;" assertions="2" time="0.005653"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and StdClass One&quot;" assertions="2" time="0.005512"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Class Empty&quot;" assertions="2" time="0.005470"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Class Zero&quot;" assertions="2" time="0.005419"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Class One&quot;" assertions="2" time="0.005462"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Null&quot;" assertions="2" time="0.005536"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Boolean False&quot;" assertions="2" time="0.005453"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Boolean True&quot;" assertions="2" time="0.005450"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Integer Zero&quot;" assertions="2" time="0.005419"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Integer One&quot;" assertions="2" time="0.005582"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Double Zero&quot;" assertions="2" time="0.005643"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Double One&quot;" assertions="2" time="0.005401"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Array Empty&quot;" assertions="2" time="0.005571"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Array Zero&quot;" assertions="2" time="0.005420"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Array One&quot;" assertions="2" time="0.005475"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and StdClass Empty&quot;" assertions="2" time="0.005421"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and StdClass One&quot;" assertions="2" time="0.005475"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Class Empty&quot;" assertions="2" time="0.005507"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Class Zero&quot;" assertions="2" time="0.005351"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Class One&quot;" assertions="2" time="0.005435"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Null&quot;" assertions="2" time="0.005485"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Boolean False&quot;" assertions="2" time="0.005493"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Boolean True&quot;" assertions="2" time="0.005497"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Integer Zero&quot;" assertions="2" time="0.005426"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Integer One&quot;" assertions="2" time="0.005420"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Double Zero&quot;" assertions="2" time="0.005454"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Double One&quot;" assertions="2" time="0.005403"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Array Empty&quot;" assertions="2" time="0.005544"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Array Zero&quot;" assertions="2" time="0.005558"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Array One&quot;" assertions="2" time="0.005453"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and StdClass Empty&quot;" assertions="2" time="0.005390"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and StdClass One&quot;" assertions="2" time="0.005415"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Class Empty&quot;" assertions="2" time="0.005428"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Class Zero&quot;" assertions="2" time="0.005412"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Class One&quot;" assertions="2" time="0.005551"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Null&quot;" assertions="2" time="0.005427"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Boolean False&quot;" assertions="2" time="0.005419"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Boolean True&quot;" assertions="2" time="0.005350"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Integer Zero&quot;" assertions="2" time="0.005520"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Integer One&quot;" assertions="2" time="0.005419"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Double Zero&quot;" assertions="2" time="0.005563"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Double One&quot;" assertions="2" time="0.005466"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Array Empty&quot;" assertions="2" time="0.005420"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Array Zero&quot;" assertions="2" time="0.005516"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Array One&quot;" assertions="2" time="0.005482"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and StdClass Empty&quot;" assertions="2" time="0.005538"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and StdClass One&quot;" assertions="2" time="0.005534"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Class Empty&quot;" assertions="2" time="0.005589"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Class Zero&quot;" assertions="2" time="0.005513"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Class One&quot;" assertions="2" time="0.005582"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Null&quot;" assertions="2" time="0.005404"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Boolean False&quot;" assertions="2" time="0.005500"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Boolean True&quot;" assertions="2" time="0.005613"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Integer Zero&quot;" assertions="2" time="0.005424"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Integer One&quot;" assertions="2" time="0.005468"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Double Zero&quot;" assertions="2" time="0.005555"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Double One&quot;" assertions="2" time="0.005646"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and String Empty&quot;" assertions="2" time="0.005450"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and String Space&quot;" assertions="2" time="0.005649"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and String Zero&quot;" assertions="2" time="0.005573"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and StdClass Empty&quot;" assertions="2" time="0.005491"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and StdClass One&quot;" assertions="2" time="0.005465"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Class Empty&quot;" assertions="2" time="0.005477"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Class Zero&quot;" assertions="2" time="0.005505"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Class One&quot;" assertions="2" time="0.005492"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Null&quot;" assertions="2" time="0.005467"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Boolean False&quot;" assertions="2" time="0.005444"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Boolean True&quot;" assertions="2" time="0.005471"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Integer Zero&quot;" assertions="2" time="0.005494"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Integer One&quot;" assertions="2" time="0.005467"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Double Zero&quot;" assertions="2" time="0.005508"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Double One&quot;" assertions="2" time="0.005542"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and String Empty&quot;" assertions="2" time="0.005451"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and String Space&quot;" assertions="2" time="0.005559"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and String Zero&quot;" assertions="2" time="0.005463"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and StdClass Empty&quot;" assertions="2" time="0.005519"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and StdClass One&quot;" assertions="2" time="0.005456"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Class Empty&quot;" assertions="2" time="0.005573"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Class Zero&quot;" assertions="2" time="0.005648"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Class One&quot;" assertions="2" time="0.005563"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Null&quot;" assertions="2" time="0.005581"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Boolean False&quot;" assertions="2" time="0.005462"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Boolean True&quot;" assertions="2" time="0.005538"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Integer Zero&quot;" assertions="2" time="0.005412"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Integer One&quot;" assertions="2" time="0.005414"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Double Zero&quot;" assertions="2" time="0.005546"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Double One&quot;" assertions="2" time="0.005483"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and String Empty&quot;" assertions="2" time="0.005495"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and String Space&quot;" assertions="2" time="0.005683"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and String Zero&quot;" assertions="2" time="0.005652"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and StdClass Empty&quot;" assertions="2" time="0.005528"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and StdClass One&quot;" assertions="2" time="0.005566"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Class Empty&quot;" assertions="2" time="0.005500"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Class Zero&quot;" assertions="2" time="0.005566"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Class One&quot;" assertions="2" time="0.005504"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Null&quot;" assertions="2" time="0.005519"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Boolean False&quot;" assertions="2" time="0.005515"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Boolean True&quot;" assertions="2" time="0.005487"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Integer Zero&quot;" assertions="2" time="0.005516"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Integer One&quot;" assertions="2" time="0.005459"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Double Zero&quot;" assertions="2" time="0.005565"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Double One&quot;" assertions="2" time="0.005567"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and String Empty&quot;" assertions="2" time="0.005499"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and String Space&quot;" assertions="2" time="0.005472"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and String Zero&quot;" assertions="2" time="0.005446"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Array Empty&quot;" assertions="2" time="0.005523"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Array Zero&quot;" assertions="2" time="0.005465"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Array One&quot;" assertions="2" time="0.005422"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Null&quot;" assertions="2" time="0.005652"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Boolean False&quot;" assertions="2" time="0.005450"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Boolean True&quot;" assertions="2" time="0.005481"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Integer Zero&quot;" assertions="2" time="0.005487"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Integer One&quot;" assertions="2" time="0.005565"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Double Zero&quot;" assertions="2" time="0.005550"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Double One&quot;" assertions="2" time="0.005473"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and String Empty&quot;" assertions="2" time="0.005432"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and String Space&quot;" assertions="2" time="0.005498"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and String Zero&quot;" assertions="2" time="0.005518"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Array Empty&quot;" assertions="2" time="0.005517"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Array Zero&quot;" assertions="2" time="0.005452"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Array One&quot;" assertions="2" time="0.005490"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Null&quot;" assertions="2" time="0.005631"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Boolean False&quot;" assertions="2" time="0.005481"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Boolean True&quot;" assertions="2" time="0.005372"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Integer Zero&quot;" assertions="2" time="0.005713"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Integer One&quot;" assertions="2" time="0.005506"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Double Zero&quot;" assertions="2" time="0.005572"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Double One&quot;" assertions="2" time="0.005560"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and String Empty&quot;" assertions="2" time="0.005476"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and String Space&quot;" assertions="2" time="0.005517"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and String Zero&quot;" assertions="2" time="0.005639"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Array Empty&quot;" assertions="2" time="0.005444"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Array Zero&quot;" assertions="2" time="0.005508"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Array One&quot;" assertions="2" time="0.005439"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Null&quot;" assertions="2" time="0.005491"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Boolean False&quot;" assertions="2" time="0.005532"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Boolean True&quot;" assertions="2" time="0.005596"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Integer Zero&quot;" assertions="2" time="0.005451"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Integer One&quot;" assertions="2" time="0.005550"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Double Zero&quot;" assertions="2" time="0.005436"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Double One&quot;" assertions="2" time="0.005490"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and String Empty&quot;" assertions="2" time="0.005519"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and String Space&quot;" assertions="2" time="0.005437"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and String Zero&quot;" assertions="2" time="0.005470"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Array Empty&quot;" assertions="2" time="0.005528"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Array Zero&quot;" assertions="2" time="0.005427"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Array One&quot;" assertions="2" time="0.005515"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Null&quot;" assertions="2" time="0.005469"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Boolean False&quot;" assertions="2" time="0.005527"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Boolean True&quot;" assertions="2" time="0.005512"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Integer Zero&quot;" assertions="2" time="0.005500"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Integer One&quot;" assertions="2" time="0.005475"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Double Zero&quot;" assertions="2" time="0.005434"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Double One&quot;" assertions="2" time="0.005449"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and String Empty&quot;" assertions="2" time="0.005498"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and String Space&quot;" assertions="2" time="0.005467"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and String Zero&quot;" assertions="2" time="0.005476"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Array Empty&quot;" assertions="2" time="0.005542"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Array Zero&quot;" assertions="2" time="0.005451"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Array One&quot;" assertions="2" time="0.005619"/>
       </testsuite>
-      <testcase name="testDefaultCompare" class="Icecave\Parity\Comparator\ComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/ComparatorTest.php" line="74" assertions="3" time="0.005804"/>
+      <testcase name="testDefaultCompare" class="Icecave\Parity\Comparator\ComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/ComparatorTest.php" line="74" assertions="3" time="0.005955"/>
     </testsuite>
-    <testsuite name="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" namespace="Icecave\Parity\Comparator" fullPackage="Icecave.Parity.Comparator" tests="294" assertions="673" failures="0" errors="0" time="1.830574">
-      <testsuite name="Icecave\Parity\Comparator\DeepComparatorTest::testDefaultCompareDifferentTypes" tests="268" assertions="536" failures="0" errors="0" time="1.543052">
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Boolean False&quot;" assertions="2" time="0.007443"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Boolean True&quot;" assertions="2" time="0.005702"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Integer Zero&quot;" assertions="2" time="0.005908"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Integer One&quot;" assertions="2" time="0.005812"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Double Zero&quot;" assertions="2" time="0.005629"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Double One&quot;" assertions="2" time="0.005798"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and String Empty&quot;" assertions="2" time="0.005698"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and String Space&quot;" assertions="2" time="0.005762"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and String Zero&quot;" assertions="2" time="0.005783"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Array Empty&quot;" assertions="2" time="0.005787"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Array Zero&quot;" assertions="2" time="0.005944"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Array One&quot;" assertions="2" time="0.005807"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and StdClass Empty&quot;" assertions="2" time="0.005790"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and StdClass One&quot;" assertions="2" time="0.005660"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Class Empty&quot;" assertions="2" time="0.005753"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Class Zero&quot;" assertions="2" time="0.005659"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Class One&quot;" assertions="2" time="0.005817"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Null&quot;" assertions="2" time="0.005694"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Integer Zero&quot;" assertions="2" time="0.005699"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Integer One&quot;" assertions="2" time="0.005700"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Double Zero&quot;" assertions="2" time="0.005712"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Double One&quot;" assertions="2" time="0.005719"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and String Empty&quot;" assertions="2" time="0.005707"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and String Space&quot;" assertions="2" time="0.005653"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and String Zero&quot;" assertions="2" time="0.005709"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Array Empty&quot;" assertions="2" time="0.005814"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Array Zero&quot;" assertions="2" time="0.005764"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Array One&quot;" assertions="2" time="0.005674"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and StdClass Empty&quot;" assertions="2" time="0.005657"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and StdClass One&quot;" assertions="2" time="0.005653"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Class Empty&quot;" assertions="2" time="0.005656"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Class Zero&quot;" assertions="2" time="0.005797"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Class One&quot;" assertions="2" time="0.005715"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Null&quot;" assertions="2" time="0.005654"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Integer Zero&quot;" assertions="2" time="0.005635"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Integer One&quot;" assertions="2" time="0.005659"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Double Zero&quot;" assertions="2" time="0.005668"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Double One&quot;" assertions="2" time="0.005710"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and String Empty&quot;" assertions="2" time="0.005711"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and String Space&quot;" assertions="2" time="0.005641"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and String Zero&quot;" assertions="2" time="0.005627"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Array Empty&quot;" assertions="2" time="0.005788"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Array Zero&quot;" assertions="2" time="0.005715"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Array One&quot;" assertions="2" time="0.005630"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and StdClass Empty&quot;" assertions="2" time="0.005634"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and StdClass One&quot;" assertions="2" time="0.005596"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Class Empty&quot;" assertions="2" time="0.005909"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Class Zero&quot;" assertions="2" time="0.005637"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Class One&quot;" assertions="2" time="0.005694"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Null&quot;" assertions="2" time="0.005697"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Boolean False&quot;" assertions="2" time="0.005690"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Boolean True&quot;" assertions="2" time="0.005659"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Double Zero&quot;" assertions="2" time="0.005813"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Double One&quot;" assertions="2" time="0.005685"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and String Empty&quot;" assertions="2" time="0.005633"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and String Space&quot;" assertions="2" time="0.005634"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and String Zero&quot;" assertions="2" time="0.005647"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Array Empty&quot;" assertions="2" time="0.005706"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Array Zero&quot;" assertions="2" time="0.005688"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Array One&quot;" assertions="2" time="0.005707"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and StdClass Empty&quot;" assertions="2" time="0.005674"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and StdClass One&quot;" assertions="2" time="0.005658"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Class Empty&quot;" assertions="2" time="0.005831"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Class Zero&quot;" assertions="2" time="0.005848"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Class One&quot;" assertions="2" time="0.007059"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Null&quot;" assertions="2" time="0.005680"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Boolean False&quot;" assertions="2" time="0.005681"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Boolean True&quot;" assertions="2" time="0.005694"/>
+    <testsuite name="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" namespace="Icecave\Parity\Comparator" fullPackage="Icecave.Parity.Comparator" tests="294" assertions="673" failures="0" errors="0" time="1.873734">
+      <testsuite name="Icecave\Parity\Comparator\DeepComparatorTest::testDefaultCompareDifferentTypes" tests="268" assertions="536" failures="0" errors="0" time="1.571600">
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Boolean False&quot;" assertions="2" time="0.007825"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Boolean True&quot;" assertions="2" time="0.005892"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Integer Zero&quot;" assertions="2" time="0.005748"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Integer One&quot;" assertions="2" time="0.005840"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Double Zero&quot;" assertions="2" time="0.005823"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Double One&quot;" assertions="2" time="0.005781"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and String Empty&quot;" assertions="2" time="0.005825"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and String Space&quot;" assertions="2" time="0.005727"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and String Zero&quot;" assertions="2" time="0.005743"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Array Empty&quot;" assertions="2" time="0.005807"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Array Zero&quot;" assertions="2" time="0.005758"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Array One&quot;" assertions="2" time="0.005927"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and StdClass Empty&quot;" assertions="2" time="0.005793"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and StdClass One&quot;" assertions="2" time="0.005905"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Class Empty&quot;" assertions="2" time="0.005910"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Class Zero&quot;" assertions="2" time="0.005787"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Null and Class One&quot;" assertions="2" time="0.005842"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Null&quot;" assertions="2" time="0.005797"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Integer Zero&quot;" assertions="2" time="0.005801"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Integer One&quot;" assertions="2" time="0.005702"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Double Zero&quot;" assertions="2" time="0.005928"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Double One&quot;" assertions="2" time="0.005851"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and String Empty&quot;" assertions="2" time="0.005865"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and String Space&quot;" assertions="2" time="0.005880"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and String Zero&quot;" assertions="2" time="0.005805"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Array Empty&quot;" assertions="2" time="0.005850"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Array Zero&quot;" assertions="2" time="0.005794"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Array One&quot;" assertions="2" time="0.005911"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and StdClass Empty&quot;" assertions="2" time="0.005849"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and StdClass One&quot;" assertions="2" time="0.005774"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Class Empty&quot;" assertions="2" time="0.005730"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Class Zero&quot;" assertions="2" time="0.005808"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean False and Class One&quot;" assertions="2" time="0.005865"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Null&quot;" assertions="2" time="0.005895"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Integer Zero&quot;" assertions="2" time="0.005820"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Integer One&quot;" assertions="2" time="0.005778"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Double Zero&quot;" assertions="2" time="0.005798"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Double One&quot;" assertions="2" time="0.005836"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and String Empty&quot;" assertions="2" time="0.005867"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and String Space&quot;" assertions="2" time="0.005898"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and String Zero&quot;" assertions="2" time="0.005847"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Array Empty&quot;" assertions="2" time="0.005782"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Array Zero&quot;" assertions="2" time="0.005874"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Array One&quot;" assertions="2" time="0.005859"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and StdClass Empty&quot;" assertions="2" time="0.005880"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and StdClass One&quot;" assertions="2" time="0.005932"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Class Empty&quot;" assertions="2" time="0.005975"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Class Zero&quot;" assertions="2" time="0.005856"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Boolean True and Class One&quot;" assertions="2" time="0.005784"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Null&quot;" assertions="2" time="0.005879"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Boolean False&quot;" assertions="2" time="0.005830"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Boolean True&quot;" assertions="2" time="0.005870"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Double Zero&quot;" assertions="2" time="0.005891"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Double One&quot;" assertions="2" time="0.005930"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and String Empty&quot;" assertions="2" time="0.005839"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and String Space&quot;" assertions="2" time="0.005962"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and String Zero&quot;" assertions="2" time="0.005912"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Array Empty&quot;" assertions="2" time="0.005824"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Array Zero&quot;" assertions="2" time="0.005854"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Array One&quot;" assertions="2" time="0.005934"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and StdClass Empty&quot;" assertions="2" time="0.005928"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and StdClass One&quot;" assertions="2" time="0.005906"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Class Empty&quot;" assertions="2" time="0.005916"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Class Zero&quot;" assertions="2" time="0.006058"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer Zero and Class One&quot;" assertions="2" time="0.005930"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Null&quot;" assertions="2" time="0.005886"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Boolean False&quot;" assertions="2" time="0.005818"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Boolean True&quot;" assertions="2" time="0.005911"/>
         <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Double Zero&quot;" assertions="2" time="0.005900"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Double One&quot;" assertions="2" time="0.005793"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and String Empty&quot;" assertions="2" time="0.005725"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and String Space&quot;" assertions="2" time="0.005691"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and String Zero&quot;" assertions="2" time="0.005680"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Array Empty&quot;" assertions="2" time="0.005803"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Array Zero&quot;" assertions="2" time="0.005653"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Array One&quot;" assertions="2" time="0.005712"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and StdClass Empty&quot;" assertions="2" time="0.005653"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and StdClass One&quot;" assertions="2" time="0.005655"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Class Empty&quot;" assertions="2" time="0.005783"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Class Zero&quot;" assertions="2" time="0.005720"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Class One&quot;" assertions="2" time="0.005742"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Null&quot;" assertions="2" time="0.005792"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Boolean False&quot;" assertions="2" time="0.005723"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Boolean True&quot;" assertions="2" time="0.005805"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Integer Zero&quot;" assertions="2" time="0.005673"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Integer One&quot;" assertions="2" time="0.005732"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and String Empty&quot;" assertions="2" time="0.005714"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and String Space&quot;" assertions="2" time="0.005655"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and String Zero&quot;" assertions="2" time="0.005753"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Array Empty&quot;" assertions="2" time="0.005653"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Array Zero&quot;" assertions="2" time="0.005817"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Array One&quot;" assertions="2" time="0.005691"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and StdClass Empty&quot;" assertions="2" time="0.005645"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and StdClass One&quot;" assertions="2" time="0.005682"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Class Empty&quot;" assertions="2" time="0.005757"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Class Zero&quot;" assertions="2" time="0.005703"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Class One&quot;" assertions="2" time="0.005801"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Null&quot;" assertions="2" time="0.005689"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Boolean False&quot;" assertions="2" time="0.005674"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Boolean True&quot;" assertions="2" time="0.005718"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Integer Zero&quot;" assertions="2" time="0.005665"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Integer One&quot;" assertions="2" time="0.006877"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and String Empty&quot;" assertions="2" time="0.006760"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and String Space&quot;" assertions="2" time="0.005736"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and String Zero&quot;" assertions="2" time="0.005681"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Array Empty&quot;" assertions="2" time="0.006152"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Array Zero&quot;" assertions="2" time="0.007111"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Array One&quot;" assertions="2" time="0.005771"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and StdClass Empty&quot;" assertions="2" time="0.005643"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and StdClass One&quot;" assertions="2" time="0.005719"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Class Empty&quot;" assertions="2" time="0.005725"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Class Zero&quot;" assertions="2" time="0.005832"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Class One&quot;" assertions="2" time="0.005617"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Null&quot;" assertions="2" time="0.005673"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Boolean False&quot;" assertions="2" time="0.005701"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Boolean True&quot;" assertions="2" time="0.005832"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Integer Zero&quot;" assertions="2" time="0.005630"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Integer One&quot;" assertions="2" time="0.005687"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Double Zero&quot;" assertions="2" time="0.005815"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Double One&quot;" assertions="2" time="0.005824"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Array Empty&quot;" assertions="2" time="0.005697"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Array Zero&quot;" assertions="2" time="0.005605"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Array One&quot;" assertions="2" time="0.005636"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and StdClass Empty&quot;" assertions="2" time="0.005616"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and StdClass One&quot;" assertions="2" time="0.005659"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Class Empty&quot;" assertions="2" time="0.005714"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Class Zero&quot;" assertions="2" time="0.005686"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Class One&quot;" assertions="2" time="0.005567"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Null&quot;" assertions="2" time="0.005628"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Boolean False&quot;" assertions="2" time="0.005745"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Boolean True&quot;" assertions="2" time="0.005626"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Integer Zero&quot;" assertions="2" time="0.005620"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Integer One&quot;" assertions="2" time="0.005824"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Double Zero&quot;" assertions="2" time="0.005719"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Double One&quot;" assertions="2" time="0.005651"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Array Empty&quot;" assertions="2" time="0.005655"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Array Zero&quot;" assertions="2" time="0.005631"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Array One&quot;" assertions="2" time="0.005633"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and StdClass Empty&quot;" assertions="2" time="0.005861"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and StdClass One&quot;" assertions="2" time="0.005825"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Class Empty&quot;" assertions="2" time="0.005743"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Class Zero&quot;" assertions="2" time="0.005901"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Class One&quot;" assertions="2" time="0.005677"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Null&quot;" assertions="2" time="0.005705"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Boolean False&quot;" assertions="2" time="0.005825"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Boolean True&quot;" assertions="2" time="0.005691"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Integer Zero&quot;" assertions="2" time="0.005744"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Integer One&quot;" assertions="2" time="0.005829"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Double Zero&quot;" assertions="2" time="0.005694"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Double One&quot;" assertions="2" time="0.005713"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Array Empty&quot;" assertions="2" time="0.005667"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Array Zero&quot;" assertions="2" time="0.005665"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Array One&quot;" assertions="2" time="0.005701"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and StdClass Empty&quot;" assertions="2" time="0.005788"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and StdClass One&quot;" assertions="2" time="0.005814"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Class Empty&quot;" assertions="2" time="0.005738"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Class Zero&quot;" assertions="2" time="0.005975"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Class One&quot;" assertions="2" time="0.005913"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Null&quot;" assertions="2" time="0.005852"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Boolean False&quot;" assertions="2" time="0.005698"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Boolean True&quot;" assertions="2" time="0.005689"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Integer Zero&quot;" assertions="2" time="0.005659"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Integer One&quot;" assertions="2" time="0.005669"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Double Zero&quot;" assertions="2" time="0.005742"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Double One&quot;" assertions="2" time="0.005699"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and String Empty&quot;" assertions="2" time="0.005691"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and String Space&quot;" assertions="2" time="0.005807"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and String Zero&quot;" assertions="2" time="0.005746"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and StdClass Empty&quot;" assertions="2" time="0.005729"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and StdClass One&quot;" assertions="2" time="0.005693"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Class Empty&quot;" assertions="2" time="0.005679"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Class Zero&quot;" assertions="2" time="0.005706"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Class One&quot;" assertions="2" time="0.005714"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Null&quot;" assertions="2" time="0.005811"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Boolean False&quot;" assertions="2" time="0.005762"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Boolean True&quot;" assertions="2" time="0.005649"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Integer Zero&quot;" assertions="2" time="0.005637"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Integer One&quot;" assertions="2" time="0.005635"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Double Zero&quot;" assertions="2" time="0.005634"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Double One&quot;" assertions="2" time="0.005657"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and String Empty&quot;" assertions="2" time="0.005685"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and String Space&quot;" assertions="2" time="0.005698"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and String Zero&quot;" assertions="2" time="0.005649"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and StdClass Empty&quot;" assertions="2" time="0.005752"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and StdClass One&quot;" assertions="2" time="0.005690"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Class Empty&quot;" assertions="2" time="0.005614"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Class Zero&quot;" assertions="2" time="0.005680"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Class One&quot;" assertions="2" time="0.005719"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Null&quot;" assertions="2" time="0.005683"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Boolean False&quot;" assertions="2" time="0.005859"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Boolean True&quot;" assertions="2" time="0.005598"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Integer Zero&quot;" assertions="2" time="0.005767"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Integer One&quot;" assertions="2" time="0.005655"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Double Zero&quot;" assertions="2" time="0.005696"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Double One&quot;" assertions="2" time="0.005704"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and String Empty&quot;" assertions="2" time="0.005633"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and String Space&quot;" assertions="2" time="0.005679"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and String Zero&quot;" assertions="2" time="0.005677"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and StdClass Empty&quot;" assertions="2" time="0.005748"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and StdClass One&quot;" assertions="2" time="0.005647"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Class Empty&quot;" assertions="2" time="0.005697"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Class Zero&quot;" assertions="2" time="0.005633"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Class One&quot;" assertions="2" time="0.005711"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Null&quot;" assertions="2" time="0.005689"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Boolean False&quot;" assertions="2" time="0.005952"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Boolean True&quot;" assertions="2" time="0.006263"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Integer Zero&quot;" assertions="2" time="0.005966"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Integer One&quot;" assertions="2" time="0.005792"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Double Zero&quot;" assertions="2" time="0.005736"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Double One&quot;" assertions="2" time="0.005681"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and String Empty&quot;" assertions="2" time="0.005710"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and String Space&quot;" assertions="2" time="0.005773"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and String Zero&quot;" assertions="2" time="0.005759"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Array Empty&quot;" assertions="2" time="0.005625"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Array Zero&quot;" assertions="2" time="0.005635"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Array One&quot;" assertions="2" time="0.005681"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Null&quot;" assertions="2" time="0.005777"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Boolean False&quot;" assertions="2" time="0.005706"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Boolean True&quot;" assertions="2" time="0.005676"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Integer Zero&quot;" assertions="2" time="0.005773"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Integer One&quot;" assertions="2" time="0.005755"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Double Zero&quot;" assertions="2" time="0.005794"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Double One&quot;" assertions="2" time="0.005813"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and String Empty&quot;" assertions="2" time="0.005775"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and String Space&quot;" assertions="2" time="0.005759"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and String Zero&quot;" assertions="2" time="0.005709"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Array Empty&quot;" assertions="2" time="0.005862"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Array Zero&quot;" assertions="2" time="0.005766"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Array One&quot;" assertions="2" time="0.005697"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Null&quot;" assertions="2" time="0.005751"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Boolean False&quot;" assertions="2" time="0.005739"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Boolean True&quot;" assertions="2" time="0.005720"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Integer Zero&quot;" assertions="2" time="0.005641"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Integer One&quot;" assertions="2" time="0.005669"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Double Zero&quot;" assertions="2" time="0.005742"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Double One&quot;" assertions="2" time="0.005742"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and String Empty&quot;" assertions="2" time="0.005757"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and String Space&quot;" assertions="2" time="0.005796"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and String Zero&quot;" assertions="2" time="0.005698"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Array Empty&quot;" assertions="2" time="0.005825"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Array Zero&quot;" assertions="2" time="0.005906"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Array One&quot;" assertions="2" time="0.005691"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Null&quot;" assertions="2" time="0.005747"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Boolean False&quot;" assertions="2" time="0.005870"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Boolean True&quot;" assertions="2" time="0.006710"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Integer Zero&quot;" assertions="2" time="0.005700"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Integer One&quot;" assertions="2" time="0.005684"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Double Zero&quot;" assertions="2" time="0.005815"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Double One&quot;" assertions="2" time="0.005695"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and String Empty&quot;" assertions="2" time="0.005702"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and String Space&quot;" assertions="2" time="0.005740"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and String Zero&quot;" assertions="2" time="0.005729"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Array Empty&quot;" assertions="2" time="0.005740"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Array Zero&quot;" assertions="2" time="0.005766"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Array One&quot;" assertions="2" time="0.005776"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Null&quot;" assertions="2" time="0.005634"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Boolean False&quot;" assertions="2" time="0.005638"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Boolean True&quot;" assertions="2" time="0.005749"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Integer Zero&quot;" assertions="2" time="0.006903"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Integer One&quot;" assertions="2" time="0.005838"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Double Zero&quot;" assertions="2" time="0.005668"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Double One&quot;" assertions="2" time="0.005710"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and String Empty&quot;" assertions="2" time="0.005702"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and String Space&quot;" assertions="2" time="0.005713"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and String Zero&quot;" assertions="2" time="0.005699"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Array Empty&quot;" assertions="2" time="0.005714"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Array Zero&quot;" assertions="2" time="0.005754"/>
-        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Array One&quot;" assertions="2" time="0.005735"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Double One&quot;" assertions="2" time="0.005841"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and String Empty&quot;" assertions="2" time="0.005845"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and String Space&quot;" assertions="2" time="0.005953"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and String Zero&quot;" assertions="2" time="0.005787"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Array Empty&quot;" assertions="2" time="0.005851"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Array Zero&quot;" assertions="2" time="0.005824"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Array One&quot;" assertions="2" time="0.005848"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and StdClass Empty&quot;" assertions="2" time="0.005821"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and StdClass One&quot;" assertions="2" time="0.005806"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Class Empty&quot;" assertions="2" time="0.005784"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Class Zero&quot;" assertions="2" time="0.005755"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Integer One and Class One&quot;" assertions="2" time="0.005723"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Null&quot;" assertions="2" time="0.006024"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Boolean False&quot;" assertions="2" time="0.005797"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Boolean True&quot;" assertions="2" time="0.005882"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Integer Zero&quot;" assertions="2" time="0.005791"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Integer One&quot;" assertions="2" time="0.005932"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and String Empty&quot;" assertions="2" time="0.005887"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and String Space&quot;" assertions="2" time="0.005755"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and String Zero&quot;" assertions="2" time="0.005787"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Array Empty&quot;" assertions="2" time="0.005792"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Array Zero&quot;" assertions="2" time="0.005796"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Array One&quot;" assertions="2" time="0.005874"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and StdClass Empty&quot;" assertions="2" time="0.005802"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and StdClass One&quot;" assertions="2" time="0.005803"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Class Empty&quot;" assertions="2" time="0.005842"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Class Zero&quot;" assertions="2" time="0.005783"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double Zero and Class One&quot;" assertions="2" time="0.005875"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Null&quot;" assertions="2" time="0.005913"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Boolean False&quot;" assertions="2" time="0.005892"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Boolean True&quot;" assertions="2" time="0.005825"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Integer Zero&quot;" assertions="2" time="0.005847"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Integer One&quot;" assertions="2" time="0.005867"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and String Empty&quot;" assertions="2" time="0.005855"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and String Space&quot;" assertions="2" time="0.005899"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and String Zero&quot;" assertions="2" time="0.005931"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Array Empty&quot;" assertions="2" time="0.005823"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Array Zero&quot;" assertions="2" time="0.005805"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Array One&quot;" assertions="2" time="0.005796"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and StdClass Empty&quot;" assertions="2" time="0.005913"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and StdClass One&quot;" assertions="2" time="0.005766"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Class Empty&quot;" assertions="2" time="0.005921"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Class Zero&quot;" assertions="2" time="0.005934"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Double One and Class One&quot;" assertions="2" time="0.005881"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Null&quot;" assertions="2" time="0.005914"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Boolean False&quot;" assertions="2" time="0.005818"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Boolean True&quot;" assertions="2" time="0.005768"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Integer Zero&quot;" assertions="2" time="0.005852"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Integer One&quot;" assertions="2" time="0.005813"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Double Zero&quot;" assertions="2" time="0.005839"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Double One&quot;" assertions="2" time="0.005826"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Array Empty&quot;" assertions="2" time="0.005802"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Array Zero&quot;" assertions="2" time="0.005852"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Array One&quot;" assertions="2" time="0.005952"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and StdClass Empty&quot;" assertions="2" time="0.005991"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and StdClass One&quot;" assertions="2" time="0.005798"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Class Empty&quot;" assertions="2" time="0.005843"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Class Zero&quot;" assertions="2" time="0.006006"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Empty and Class One&quot;" assertions="2" time="0.005777"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Null&quot;" assertions="2" time="0.005869"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Boolean False&quot;" assertions="2" time="0.005805"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Boolean True&quot;" assertions="2" time="0.005724"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Integer Zero&quot;" assertions="2" time="0.005743"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Integer One&quot;" assertions="2" time="0.005744"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Double Zero&quot;" assertions="2" time="0.005807"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Double One&quot;" assertions="2" time="0.005776"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Array Empty&quot;" assertions="2" time="0.005869"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Array Zero&quot;" assertions="2" time="0.005827"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Array One&quot;" assertions="2" time="0.005797"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and StdClass Empty&quot;" assertions="2" time="0.005886"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and StdClass One&quot;" assertions="2" time="0.005871"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Class Empty&quot;" assertions="2" time="0.005847"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Class Zero&quot;" assertions="2" time="0.005782"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Space and Class One&quot;" assertions="2" time="0.005866"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Null&quot;" assertions="2" time="0.005833"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Boolean False&quot;" assertions="2" time="0.005850"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Boolean True&quot;" assertions="2" time="0.005880"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Integer Zero&quot;" assertions="2" time="0.005827"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Integer One&quot;" assertions="2" time="0.005836"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Double Zero&quot;" assertions="2" time="0.005799"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Double One&quot;" assertions="2" time="0.005764"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Array Empty&quot;" assertions="2" time="0.005770"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Array Zero&quot;" assertions="2" time="0.005869"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Array One&quot;" assertions="2" time="0.005816"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and StdClass Empty&quot;" assertions="2" time="0.005886"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and StdClass One&quot;" assertions="2" time="0.005780"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Class Empty&quot;" assertions="2" time="0.005830"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Class Zero&quot;" assertions="2" time="0.005860"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;String Zero and Class One&quot;" assertions="2" time="0.005808"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Null&quot;" assertions="2" time="0.005746"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Boolean False&quot;" assertions="2" time="0.005818"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Boolean True&quot;" assertions="2" time="0.005877"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Integer Zero&quot;" assertions="2" time="0.006013"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Integer One&quot;" assertions="2" time="0.005825"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Double Zero&quot;" assertions="2" time="0.005849"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Double One&quot;" assertions="2" time="0.005823"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and String Empty&quot;" assertions="2" time="0.005954"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and String Space&quot;" assertions="2" time="0.005819"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and String Zero&quot;" assertions="2" time="0.005854"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and StdClass Empty&quot;" assertions="2" time="0.005759"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and StdClass One&quot;" assertions="2" time="0.005817"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Class Empty&quot;" assertions="2" time="0.005828"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Class Zero&quot;" assertions="2" time="0.005902"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Empty and Class One&quot;" assertions="2" time="0.005977"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Null&quot;" assertions="2" time="0.005784"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Boolean False&quot;" assertions="2" time="0.005900"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Boolean True&quot;" assertions="2" time="0.005881"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Integer Zero&quot;" assertions="2" time="0.005876"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Integer One&quot;" assertions="2" time="0.005855"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Double Zero&quot;" assertions="2" time="0.005918"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Double One&quot;" assertions="2" time="0.005907"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and String Empty&quot;" assertions="2" time="0.005841"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and String Space&quot;" assertions="2" time="0.005833"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and String Zero&quot;" assertions="2" time="0.006010"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and StdClass Empty&quot;" assertions="2" time="0.005865"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and StdClass One&quot;" assertions="2" time="0.005879"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Class Empty&quot;" assertions="2" time="0.005808"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Class Zero&quot;" assertions="2" time="0.005896"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array Zero and Class One&quot;" assertions="2" time="0.005754"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Null&quot;" assertions="2" time="0.006007"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Boolean False&quot;" assertions="2" time="0.005794"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Boolean True&quot;" assertions="2" time="0.005900"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Integer Zero&quot;" assertions="2" time="0.005900"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Integer One&quot;" assertions="2" time="0.005954"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Double Zero&quot;" assertions="2" time="0.005847"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Double One&quot;" assertions="2" time="0.005923"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and String Empty&quot;" assertions="2" time="0.005963"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and String Space&quot;" assertions="2" time="0.005815"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and String Zero&quot;" assertions="2" time="0.005779"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and StdClass Empty&quot;" assertions="2" time="0.005796"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and StdClass One&quot;" assertions="2" time="0.005937"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Class Empty&quot;" assertions="2" time="0.005925"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Class Zero&quot;" assertions="2" time="0.005904"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Array One and Class One&quot;" assertions="2" time="0.005985"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Null&quot;" assertions="2" time="0.005923"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Boolean False&quot;" assertions="2" time="0.005914"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Boolean True&quot;" assertions="2" time="0.005869"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Integer Zero&quot;" assertions="2" time="0.005996"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Integer One&quot;" assertions="2" time="0.005855"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Double Zero&quot;" assertions="2" time="0.005796"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Double One&quot;" assertions="2" time="0.005986"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and String Empty&quot;" assertions="2" time="0.005995"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and String Space&quot;" assertions="2" time="0.005749"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and String Zero&quot;" assertions="2" time="0.005838"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Array Empty&quot;" assertions="2" time="0.005830"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Array Zero&quot;" assertions="2" time="0.005915"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass Empty and Array One&quot;" assertions="2" time="0.005926"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Null&quot;" assertions="2" time="0.005938"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Boolean False&quot;" assertions="2" time="0.005932"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Boolean True&quot;" assertions="2" time="0.005829"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Integer Zero&quot;" assertions="2" time="0.005796"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Integer One&quot;" assertions="2" time="0.005901"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Double Zero&quot;" assertions="2" time="0.005718"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Double One&quot;" assertions="2" time="0.005894"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and String Empty&quot;" assertions="2" time="0.005765"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and String Space&quot;" assertions="2" time="0.005814"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and String Zero&quot;" assertions="2" time="0.005751"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Array Empty&quot;" assertions="2" time="0.005924"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Array Zero&quot;" assertions="2" time="0.005848"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;StdClass One and Array One&quot;" assertions="2" time="0.005850"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Null&quot;" assertions="2" time="0.005758"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Boolean False&quot;" assertions="2" time="0.005797"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Boolean True&quot;" assertions="2" time="0.005775"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Integer Zero&quot;" assertions="2" time="0.005825"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Integer One&quot;" assertions="2" time="0.005925"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Double Zero&quot;" assertions="2" time="0.005949"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Double One&quot;" assertions="2" time="0.005861"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and String Empty&quot;" assertions="2" time="0.005863"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and String Space&quot;" assertions="2" time="0.005864"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and String Zero&quot;" assertions="2" time="0.005932"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Array Empty&quot;" assertions="2" time="0.005841"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Array Zero&quot;" assertions="2" time="0.006036"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Empty and Array One&quot;" assertions="2" time="0.005829"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Null&quot;" assertions="2" time="0.006012"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Boolean False&quot;" assertions="2" time="0.005797"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Boolean True&quot;" assertions="2" time="0.005860"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Integer Zero&quot;" assertions="2" time="0.005948"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Integer One&quot;" assertions="2" time="0.005733"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Double Zero&quot;" assertions="2" time="0.005810"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Double One&quot;" assertions="2" time="0.005782"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and String Empty&quot;" assertions="2" time="0.005917"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and String Space&quot;" assertions="2" time="0.005992"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and String Zero&quot;" assertions="2" time="0.005887"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Array Empty&quot;" assertions="2" time="0.005800"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Array Zero&quot;" assertions="2" time="0.005776"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class Zero and Array One&quot;" assertions="2" time="0.005872"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Null&quot;" assertions="2" time="0.005842"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Boolean False&quot;" assertions="2" time="0.005996"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Boolean True&quot;" assertions="2" time="0.005900"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Integer Zero&quot;" assertions="2" time="0.005934"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Integer One&quot;" assertions="2" time="0.005968"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Double Zero&quot;" assertions="2" time="0.005885"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Double One&quot;" assertions="2" time="0.005794"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and String Empty&quot;" assertions="2" time="0.005856"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and String Space&quot;" assertions="2" time="0.006036"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and String Zero&quot;" assertions="2" time="0.005950"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Array Empty&quot;" assertions="2" time="0.005910"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Array Zero&quot;" assertions="2" time="0.005990"/>
+        <testcase name="testDefaultCompareDifferentTypes with data set &quot;Class One and Array One&quot;" assertions="2" time="0.005849"/>
       </testsuite>
-      <testcase name="testDefaultCompare" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="75" assertions="3" time="0.006249"/>
-      <testcase name="testDefaultCompareNull" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="82" assertions="1" time="0.004903"/>
-      <testcase name="testDefaultCompareBoolean" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="87" assertions="4" time="0.006973"/>
-      <testcase name="testDefaultCompareInteger" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="96" assertions="8" time="0.009858"/>
-      <testcase name="testDefaultCompareFloat" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="110" assertions="8" time="0.009617"/>
-      <testcase name="testDefaultCompareString" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="124" assertions="10" time="0.010726"/>
-      <testcase name="testDefaultCompareBasic" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="140" assertions="3" time="0.006356"/>
-      <testcase name="testDefaultCompareWithArrayAndNonArray" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="147" assertions="4" time="0.007483"/>
-      <testcase name="testDefaultCompareWithArrays" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="159" assertions="11" time="0.016131"/>
-      <testcase name="testDefaultCompareWithAsocArrays" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="181" assertions="10" time="0.015233"/>
-      <testcase name="testDefaultCompareWithObjectAndNonObjectScalar" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="202" assertions="4" time="0.007038"/>
-      <testcase name="testDefaultCompareWithObjectAndNonObjectArray" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="214" assertions="4" time="0.007107"/>
-      <testcase name="testDefaultCompareWithObjectsDifferentClassTypes" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="226" assertions="4" time="0.007572"/>
-      <testcase name="testDefaultCompareWithObjectsDifferentInnerClassTypes" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="238" assertions="4" time="0.010157"/>
-      <testcase name="testDefaultCompareWithObjectsParentAndDerived" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="253" assertions="4" time="0.008024"/>
-      <testcase name="testDefaultCompareWithSimpleObjects" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="265" assertions="6" time="0.018836"/>
-      <testcase name="testDefaultCompareWithSimpleObjectsHavingDifferentTotalProperties" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="291" assertions="4" time="0.009350"/>
-      <testcase name="testDefaultCompareWithObjects" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="308" assertions="6" time="0.014540"/>
-      <testcase name="testDefaultCompareWithObjectsHavingUndeclaredProperties" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="326" assertions="6" time="0.014549"/>
-      <testcase name="testDefaultCompareWithObjectsHavingSharedInnerObject" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="350" assertions="6" time="0.014522"/>
-      <testcase name="testDefaultCompareWithSimpleObjectsRecursion" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="370" assertions="4" time="0.012310"/>
-      <testcase name="testDefaultCompareWithSimpleObjectsDoubleRecursion" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="394" assertions="4" time="0.014611"/>
-      <testcase name="testDefaultCompareWithSimpleObjectsBothHavingObject1AsFirstProperty" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="420" assertions="4" time="0.011116"/>
-      <testcase name="testDefaultCompareWithSimpleObjectsCrossReference" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="437" assertions="4" time="0.009300"/>
-      <testcase name="testDefaultCompareWithObjectsRecursive" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="454" assertions="6" time="0.019125"/>
-      <testcase name="testDefaultCompareWithObjectsHavingInternalArraysAndObjects" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="478" assertions="5" time="0.015836"/>
+      <testcase name="testDefaultCompare" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="75" assertions="3" time="0.006404"/>
+      <testcase name="testDefaultCompareNull" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="82" assertions="1" time="0.005030"/>
+      <testcase name="testDefaultCompareBoolean" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="87" assertions="4" time="0.007298"/>
+      <testcase name="testDefaultCompareInteger" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="96" assertions="8" time="0.010466"/>
+      <testcase name="testDefaultCompareFloat" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="110" assertions="8" time="0.010475"/>
+      <testcase name="testDefaultCompareString" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="124" assertions="10" time="0.011562"/>
+      <testcase name="testDefaultCompareBasic" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="140" assertions="3" time="0.006612"/>
+      <testcase name="testDefaultCompareWithArrayAndNonArray" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="147" assertions="4" time="0.007455"/>
+      <testcase name="testDefaultCompareWithArrays" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="159" assertions="11" time="0.016352"/>
+      <testcase name="testDefaultCompareWithAsocArrays" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="181" assertions="10" time="0.015419"/>
+      <testcase name="testDefaultCompareWithObjectAndNonObjectScalar" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="202" assertions="4" time="0.007208"/>
+      <testcase name="testDefaultCompareWithObjectAndNonObjectArray" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="214" assertions="4" time="0.007340"/>
+      <testcase name="testDefaultCompareWithObjectsDifferentClassTypes" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="226" assertions="4" time="0.007712"/>
+      <testcase name="testDefaultCompareWithObjectsDifferentInnerClassTypes" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="238" assertions="4" time="0.010449"/>
+      <testcase name="testDefaultCompareWithObjectsParentAndDerived" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="253" assertions="4" time="0.008342"/>
+      <testcase name="testDefaultCompareWithSimpleObjects" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="265" assertions="6" time="0.020355"/>
+      <testcase name="testDefaultCompareWithSimpleObjectsHavingDifferentTotalProperties" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="291" assertions="4" time="0.009639"/>
+      <testcase name="testDefaultCompareWithObjects" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="308" assertions="6" time="0.015895"/>
+      <testcase name="testDefaultCompareWithObjectsHavingUndeclaredProperties" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="326" assertions="6" time="0.015992"/>
+      <testcase name="testDefaultCompareWithObjectsHavingSharedInnerObject" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="350" assertions="6" time="0.015824"/>
+      <testcase name="testDefaultCompareWithSimpleObjectsRecursion" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="370" assertions="4" time="0.012815"/>
+      <testcase name="testDefaultCompareWithSimpleObjectsDoubleRecursion" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="394" assertions="4" time="0.014882"/>
+      <testcase name="testDefaultCompareWithSimpleObjectsBothHavingObject1AsFirstProperty" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="420" assertions="4" time="0.012141"/>
+      <testcase name="testDefaultCompareWithSimpleObjectsCrossReference" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="437" assertions="4" time="0.010589"/>
+      <testcase name="testDefaultCompareWithObjectsRecursive" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="454" assertions="6" time="0.019559"/>
+      <testcase name="testDefaultCompareWithObjectsHavingInternalArraysAndObjects" class="Icecave\Parity\Comparator\DeepComparatorTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Comparator/DeepComparatorTest.php" line="478" assertions="5" time="0.016318"/>
     </testsuite>
-    <testsuite name="Icecave\Parity\Exception\NotComparableExceptionTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Exception/NotComparableExceptionTest.php" namespace="Icecave\Parity\Exception" fullPackage="Icecave.Parity.Exception" tests="1" assertions="2" failures="0" errors="0" time="0.008779">
-      <testcase name="testException" class="Icecave\Parity\Exception\NotComparableExceptionTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Exception/NotComparableExceptionTest.php" line="9" assertions="2" time="0.008779"/>
+    <testsuite name="Icecave\Parity\Exception\NotComparableExceptionTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Exception/NotComparableExceptionTest.php" namespace="Icecave\Parity\Exception" fullPackage="Icecave.Parity.Exception" tests="1" assertions="2" failures="0" errors="0" time="0.009014">
+      <testcase name="testException" class="Icecave\Parity\Exception\NotComparableExceptionTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/Exception/NotComparableExceptionTest.php" line="9" assertions="2" time="0.009014"/>
     </testsuite>
-    <testsuite name="Icecave\Parity\ExtendedComparableTraitTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ExtendedComparableTraitTest.php" namespace="Icecave\Parity" fullPackage="Icecave.Parity" tests="6" assertions="18" failures="0" errors="0" time="0.073533">
-      <testcase name="testIsEqualTo" class="Icecave\Parity\ExtendedComparableTraitTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ExtendedComparableTraitTest.php" line="22" assertions="3" time="0.018239"/>
-      <testcase name="testIsNotEqualTo" class="Icecave\Parity\ExtendedComparableTraitTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ExtendedComparableTraitTest.php" line="29" assertions="3" time="0.011111"/>
-      <testcase name="testIsLessThan" class="Icecave\Parity\ExtendedComparableTraitTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ExtendedComparableTraitTest.php" line="36" assertions="3" time="0.011071"/>
-      <testcase name="testIsGreaterThan" class="Icecave\Parity\ExtendedComparableTraitTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ExtendedComparableTraitTest.php" line="43" assertions="3" time="0.011046"/>
-      <testcase name="testIsLessThanOrEqualTo" class="Icecave\Parity\ExtendedComparableTraitTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ExtendedComparableTraitTest.php" line="50" assertions="3" time="0.011077"/>
-      <testcase name="testIsGreaterThanOrEqualTo" class="Icecave\Parity\ExtendedComparableTraitTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ExtendedComparableTraitTest.php" line="57" assertions="3" time="0.010989"/>
+    <testsuite name="Icecave\Parity\ExtendedComparableTraitTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ExtendedComparableTraitTest.php" namespace="Icecave\Parity" fullPackage="Icecave.Parity" tests="6" assertions="18" failures="0" errors="0" time="0.072720">
+      <testcase name="testIsEqualTo" class="Icecave\Parity\ExtendedComparableTraitTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ExtendedComparableTraitTest.php" line="22" assertions="3" time="0.015913"/>
+      <testcase name="testIsNotEqualTo" class="Icecave\Parity\ExtendedComparableTraitTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ExtendedComparableTraitTest.php" line="29" assertions="3" time="0.011242"/>
+      <testcase name="testIsLessThan" class="Icecave\Parity\ExtendedComparableTraitTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ExtendedComparableTraitTest.php" line="36" assertions="3" time="0.011465"/>
+      <testcase name="testIsGreaterThan" class="Icecave\Parity\ExtendedComparableTraitTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ExtendedComparableTraitTest.php" line="43" assertions="3" time="0.011411"/>
+      <testcase name="testIsLessThanOrEqualTo" class="Icecave\Parity\ExtendedComparableTraitTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ExtendedComparableTraitTest.php" line="50" assertions="3" time="0.011416"/>
+      <testcase name="testIsGreaterThanOrEqualTo" class="Icecave\Parity\ExtendedComparableTraitTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ExtendedComparableTraitTest.php" line="57" assertions="3" time="0.011273"/>
     </testsuite>
-    <testsuite name="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" namespace="Icecave\Parity" fullPackage="Icecave.Parity" tests="12" assertions="36" failures="0" errors="0" time="0.082319">
-      <testcase name="testIsEqualTo" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="16" assertions="3" time="0.008937"/>
-      <testcase name="testIsNotEqualTo" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="23" assertions="3" time="0.006825"/>
-      <testcase name="testIsLessThan" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="30" assertions="3" time="0.006836"/>
-      <testcase name="testIsGreaterThan" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="37" assertions="3" time="0.006906"/>
-      <testcase name="testIsLessThanOrEqualTo" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="44" assertions="3" time="0.006986"/>
-      <testcase name="testIsGreaterThanOrEqualTo" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="51" assertions="3" time="0.006885"/>
-      <testcase name="testIsEqualToWithDefaultComparator" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="58" assertions="3" time="0.006655"/>
-      <testcase name="testIsNotEqualToWithDefaultComparator" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="65" assertions="3" time="0.006394"/>
-      <testcase name="testIsLessThanWithDefaultComparator" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="72" assertions="3" time="0.006455"/>
-      <testcase name="testIsGreaterThanWithDefaultComparator" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="79" assertions="3" time="0.006479"/>
-      <testcase name="testIsLessThanOrEqualToWithDefaultComparator" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="86" assertions="3" time="0.006473"/>
-      <testcase name="testIsGreaterThanOrEqualToWithDefaultComparator" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="93" assertions="3" time="0.006489"/>
+    <testsuite name="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" namespace="Icecave\Parity" fullPackage="Icecave.Parity" tests="12" assertions="36" failures="0" errors="0" time="0.086559">
+      <testcase name="testIsEqualTo" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="16" assertions="3" time="0.009164"/>
+      <testcase name="testIsNotEqualTo" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="23" assertions="3" time="0.007444"/>
+      <testcase name="testIsLessThan" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="30" assertions="3" time="0.007087"/>
+      <testcase name="testIsGreaterThan" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="37" assertions="3" time="0.007458"/>
+      <testcase name="testIsLessThanOrEqualTo" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="44" assertions="3" time="0.007153"/>
+      <testcase name="testIsGreaterThanOrEqualTo" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="51" assertions="3" time="0.007091"/>
+      <testcase name="testIsEqualToWithDefaultComparator" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="58" assertions="3" time="0.006966"/>
+      <testcase name="testIsNotEqualToWithDefaultComparator" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="65" assertions="3" time="0.006703"/>
+      <testcase name="testIsLessThanWithDefaultComparator" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="72" assertions="3" time="0.006718"/>
+      <testcase name="testIsGreaterThanWithDefaultComparator" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="79" assertions="3" time="0.006809"/>
+      <testcase name="testIsLessThanOrEqualToWithDefaultComparator" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="86" assertions="3" time="0.006700"/>
+      <testcase name="testIsGreaterThanOrEqualToWithDefaultComparator" class="Icecave\Parity\ParityTest" file="/home/travis/build/IcecaveStudios/parity/test/suite/Icecave/Parity/ParityTest.php" line="93" assertions="3" time="0.007266"/>
     </testsuite>
   </testsuite>
 </testsuites>

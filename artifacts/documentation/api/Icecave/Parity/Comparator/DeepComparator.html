@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="robots" content="index, follow, all" />
+        <title>Icecave\Parity\Comparator\DeepComparator | Parity API</title>
+                    <link rel="stylesheet" type="text/css" href="../../../stylesheet.css">
+                            </head>
+        <body id="class">
+            <div class="header">
+        <ul>
+            <li><a href="../../../classes.html">Classes</a></li>
+                            <li><a href="../../../namespaces.html">Namespaces</a></li>
+                        <li><a href="../../../interfaces.html">Interfaces</a></li>
+            <li><a href="../../../doc-index.html">Index</a></li>
+            
+        </ul>
+
+        <div id="title">Parity API</div>
+
+            <div class="type">Class</div>
+    <h1><a href="../../../Icecave/Parity/Comparator.html">Icecave\Parity\Comparator</a>\DeepComparator</h1>
+    </div>
+        <div class="content">
+                <p>class    <strong>DeepComparator</strong>        extends <a href="../../../Icecave/Parity/Comparator/AbstractComparator.html"><abbr title="Icecave\Parity\Comparator\AbstractComparator">AbstractComparator</abbr></a></p>
+
+    
+    
+    
+            <h2>Methods</h2>
+
+            <table>
+                    <tr>
+                <td class="type">
+                    
+                </td>
+                <td class="last">
+                    <a href="#method___construct">__construct</a>()
+                    <p></p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    integer
+                </td>
+                <td class="last">
+                    <a href="#method_compare">compare</a>(mixed $lhs, mixed $rhs)
+                    <p>Compare two values, yielding a result according to the following table:</p>
+                </td>
+                <td><small>from&nbsp;<a href="../../../Icecave/Parity/Comparator/AbstractComparator.html#method_compare"><abbr title="Icecave\Parity\Comparator\AbstractComparator">AbstractComparator</abbr></a></small></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    integer
+                </td>
+                <td class="last">
+                    <a href="#method_defaultCompare">defaultCompare</a>(mixed $lhs, mixed $rhs)
+                    <p></p>
+                </td>
+                <td></td>
+            </tr>
+            </table>
+
+
+        <h2>Details</h2>
+
+                        <h3 id="method___construct">
+        <div class="location">at line 9</div>
+        <code>            public            
+    <strong>__construct</strong>()</code>
+    </h3>
+    <div class="details">
+        <p></p>
+        <p></p>
+        <div class="tags">
+            
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_compare">
+        <div class="location">in <a href="../../../Icecave/Parity/Comparator/AbstractComparator.html#method_compare"><abbr title="Icecave\Parity\Comparator\AbstractComparator">AbstractComparator</abbr></a> at line 32</div>
+        <code>            public            integer
+    <strong>compare</strong>(mixed $lhs, mixed $rhs)</code>
+    </h3>
+    <div class="details">
+        <p>Compare two values, yielding a result according to the following table:</p>
+        <p>+--------------------+---------------+<br />
+ | Condition          | Result        |<br />
+ +--------------------+---------------+<br />
+ | $this == $value    | $result === 0 |<br />
+ | $this &lt; $value     | $result &lt; 0   |<br />
+ | $this &gt; $value     | $result &gt; 0   |<br />
+ +--------------------+---------------+</p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>mixed</td>
+                <td>$lhs</td>
+                <td>The first value to compare.</td>
+            </tr>
+                    <tr>
+                <td>mixed</td>
+                <td>$rhs</td>
+                <td>The second value to compare.</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>integer</td>
+            <td>The result of the comparison.</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_defaultCompare">
+        <div class="location">at line 22</div>
+        <code>            public            integer
+    <strong>defaultCompare</strong>(mixed $lhs, mixed $rhs)</code>
+    </h3>
+    <div class="details">
+        <p></p>
+        <p></p>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table>
+                    <tr>
+                <td>mixed</td>
+                <td>$lhs</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td>mixed</td>
+                <td>$rhs</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td>integer</td>
+            <td>The result of the comparison.</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+    
+            </div>
+            <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/" target="_top">Sami, the API Documentation Generator</a>.
+    </div>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+var tree = [["Icecave",,"",
+                [["Parity","Icecave\/Parity.html","",
+                [["Comparator","Icecave\/Parity\/Comparator.html","",
+                [["AbstractComparator","Icecave\/Parity\/Comparator\/AbstractComparator.html","",
+                [        ]],["Comparator","Icecave\/Parity\/Comparator\/Comparator.html"," < AbstractComparator",
+                [        ]],["ComparatorInterface","Icecave\/Parity\/Comparator\/ComparatorInterface.html","",
+                [        ]],["DeepComparator","Icecave\/Parity\/Comparator\/DeepComparator.html"," < AbstractComparator",
+                [        ]]        ]],["Exception","Icecave\/Parity\/Exception.html","",
+                [["NotComparableException","Icecave\/Parity\/Exception\/NotComparableException.html"," < LogicException",
+                [        ]]        ]],["AbstractComparable","Icecave\/Parity\/AbstractComparable.html","",
+                [        ]],["ComparableInterface","Icecave\/Parity\/ComparableInterface.html","",
+                [        ]],["DelegatingComparableInterface","Icecave\/Parity\/DelegatingComparableInterface.html","",
+                [        ]],["ExtendedComparableInterface","Icecave\/Parity\/ExtendedComparableInterface.html","",
+                [        ]],["Parity","Icecave\/Parity\/Parity.html","",
+                [        ]],["RestrictedComparableInterface","Icecave\/Parity\/RestrictedComparableInterface.html","",
+                [        ]]        ]]        ]]        ]
+
