@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="robots" content="index, follow, all" />
-        <title>Icecave\Parity\RestrictedComparableInterface | Parity API</title>
+        <title>Icecave\Parity\AnyComparableInterface | Parity API</title>
                     <link rel="stylesheet" type="text/css" href="../../stylesheet.css">
                             </head>
         <body id="class">
@@ -19,13 +19,13 @@
         <div id="title">Parity API</div>
 
             <div class="type">Interface</div>
-    <h1><a href="../../Icecave/Parity.html">Icecave\Parity</a>\RestrictedComparableInterface</h1>
+    <h1><a href="../../Icecave/Parity.html">Icecave\Parity</a>\AnyComparableInterface</h1>
     </div>
         <div class="content">
-                <p>interface    <strong>RestrictedComparableInterface</strong></p>
+                <p>interface    <strong>AnyComparableInterface</strong></p>
 
             <div class="description">
-            <p>An object that can compare itself to a subset of other values.</p>
+            <p>An object that can be compared to any other value.</p>
             <p>
 </p>
         </div>
@@ -45,23 +45,13 @@
                 </td>
                 <td></td>
             </tr>
-                    <tr>
-                <td class="type">
-                    boolean
-                </td>
-                <td class="last">
-                    <a href="#method_canCompare">canCompare</a>(mixed $value)
-                    <p>Check if $this is able to be compared to another value.</p>
-                </td>
-                <td></td>
-            </tr>
             </table>
 
 
         <h2>Details</h2>
 
                         <h3 id="method_compare">
-        <div class="location">at line 26</div>
+        <div class="location">at line 25</div>
         <code>            public            integer
     <strong>compare</strong>(mixed $value)</code>
     </h3>
@@ -92,50 +82,6 @@
         <tr>
             <td>integer</td>
             <td>The result of the comparison.</td>
-        </tr>
-    </table>
-
-            
-                            <h4>Exceptions</h4>
-
-                    <table>
-                    <tr>
-                <td><abbr title="Exception\NotComparableException">NotComparableException</abbr></td>
-                <td>Indicates that the implementation does not know how to compare $this to $value.</td>
-            </tr>
-            </table>
-
-            
-                    </div>
-    </div>
-
-                <h3 id="method_canCompare">
-        <div class="location">at line 38</div>
-        <code>            public            boolean
-    <strong>canCompare</strong>(mixed $value)</code>
-    </h3>
-    <div class="details">
-        <p>Check if $this is able to be compared to another value.</p>
-        <p>A return value of false indicates that calling $this->compare($value)
-will throw an exception.</p>
-        <div class="tags">
-                            <h4>Parameters</h4>
-
-                    <table>
-                    <tr>
-                <td>mixed</td>
-                <td>$value</td>
-                <td>The value to compare.</td>
-            </tr>
-            </table>
-
-            
-                            <h4>Return Value</h4>
-
-                    <table>
-        <tr>
-            <td>boolean</td>
-            <td>True if $this can be compared to $value.</td>
         </tr>
     </table>
 

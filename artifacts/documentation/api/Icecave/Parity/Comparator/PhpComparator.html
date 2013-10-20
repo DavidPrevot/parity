@@ -3,27 +3,33 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="robots" content="index, follow, all" />
-        <title>Icecave\Parity\ComparableInterface | Parity API</title>
-                    <link rel="stylesheet" type="text/css" href="../../stylesheet.css">
+        <title>Icecave\Parity\Comparator\PhpComparator | Parity API</title>
+                    <link rel="stylesheet" type="text/css" href="../../../stylesheet.css">
                             </head>
         <body id="class">
             <div class="header">
         <ul>
-            <li><a href="../../classes.html">Classes</a></li>
-                            <li><a href="../../namespaces.html">Namespaces</a></li>
-                        <li><a href="../../interfaces.html">Interfaces</a></li>
-            <li><a href="../../doc-index.html">Index</a></li>
+            <li><a href="../../../classes.html">Classes</a></li>
+                            <li><a href="../../../namespaces.html">Namespaces</a></li>
+                        <li><a href="../../../interfaces.html">Interfaces</a></li>
+            <li><a href="../../../doc-index.html">Index</a></li>
             
         </ul>
 
         <div id="title">Parity API</div>
 
-            <div class="type">Interface</div>
-    <h1><a href="../../Icecave/Parity.html">Icecave\Parity</a>\ComparableInterface</h1>
+            <div class="type">Class</div>
+    <h1><a href="../../../Icecave/Parity/Comparator.html">Icecave\Parity\Comparator</a>\PhpComparator</h1>
     </div>
         <div class="content">
-                <p>interface    <strong>ComparableInterface</strong></p>
+                <p>class    <strong>PhpComparator</strong>        implements
+        <a href="../../../Icecave/Parity/Comparator/ComparatorInterface.html"><abbr title="Icecave\Parity\Comparator\ComparatorInterface">ComparatorInterface</abbr></a></p>
 
+            <div class="description">
+            <p>A comparator that compares using the built-in PHP less than operator.</p>
+            <p>
+</p>
+        </div>
     
     
     
@@ -35,8 +41,8 @@
                     integer
                 </td>
                 <td class="last">
-                    <a href="#method_compare">compare</a>(mixed $value)
-                    <p>Compare this object with another value, yielding a result according to the following table:</p>
+                    <a href="#method_compare">compare</a>(mixed $lhs, mixed $rhs)
+                    <p>Compare two values, yielding a result according to the following table:</p>
                 </td>
                 <td></td>
             </tr>
@@ -46,12 +52,12 @@
         <h2>Details</h2>
 
                         <h3 id="method_compare">
-        <div class="location">at line 22</div>
+        <div class="location">at line 27</div>
         <code>            public            integer
-    <strong>compare</strong>(mixed $value)</code>
+    <strong>compare</strong>(mixed $lhs, mixed $rhs)</code>
     </h3>
     <div class="details">
-        <p>Compare this object with another value, yielding a result according to the following table:</p>
+        <p>Compare two values, yielding a result according to the following table:</p>
         <p>+--------------------+---------------+
 | Condition          | Result        |
 +--------------------+---------------+
@@ -65,8 +71,13 @@
                     <table>
                     <tr>
                 <td>mixed</td>
-                <td>$value</td>
-                <td>The value to compare.</td>
+                <td>$lhs</td>
+                <td>The first value to compare.</td>
+            </tr>
+                    <tr>
+                <td>mixed</td>
+                <td>$rhs</td>
+                <td>The second value to compare.</td>
             </tr>
             </table>
 
@@ -81,15 +92,6 @@
     </table>
 
             
-                            <h4>Exceptions</h4>
-
-                    <table>
-                    <tr>
-                <td><abbr title="Exception\NotComparableException">NotComparableException</abbr></td>
-                <td>Indicates that the implementation does not know how to compare $this to $value.</td>
-            </tr>
-            </table>
-
             
                     </div>
     </div>

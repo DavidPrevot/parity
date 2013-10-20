@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="robots" content="index, follow, all" />
-        <title>Icecave\Parity\DelegatingComparableInterface | Parity API</title>
+        <title>Icecave\Parity\SelfComparableInterface | Parity API</title>
                     <link rel="stylesheet" type="text/css" href="../../stylesheet.css">
                             </head>
         <body id="class">
@@ -19,11 +19,16 @@
         <div id="title">Parity API</div>
 
             <div class="type">Interface</div>
-    <h1><a href="../../Icecave/Parity.html">Icecave\Parity</a>\DelegatingComparableInterface</h1>
+    <h1><a href="../../Icecave/Parity.html">Icecave\Parity</a>\SelfComparableInterface</h1>
     </div>
         <div class="content">
-                <p>interface    <strong>DelegatingComparableInterface</strong></p>
+                <p>interface    <strong>SelfComparableInterface</strong></p>
 
+            <div class="description">
+            <p>An object that can compare itself to other objects of the same type.</p>
+            <p>
+</p>
+        </div>
     
     
     
@@ -35,8 +40,8 @@
                     integer
                 </td>
                 <td class="last">
-                    <a href="#method_delegatingCompare">delegatingCompare</a>(mixed $value, <a href="../../Icecave/Parity/Comparator/ComparatorInterface.html"><abbr title="Icecave\Parity\Comparator\ComparatorInterface">ComparatorInterface</abbr></a> $comparator)
-                    <p>Compare this object with another value, yielding a result according to the following table:</p>
+                    <a href="#method_compare">compare</a>(object $value)
+                    <p>Compare this object with another object of the same type, yielding a result according to the following table:</p>
                 </td>
                 <td></td>
             </tr>
@@ -45,13 +50,13 @@
 
         <h2>Details</h2>
 
-                        <h3 id="method_delegatingCompare">
-        <div class="location">at line 25</div>
+                        <h3 id="method_compare">
+        <div class="location">at line 26</div>
         <code>            public            integer
-    <strong>delegatingCompare</strong>(mixed $value, <a href="../../Icecave/Parity/Comparator/ComparatorInterface.html"><abbr title="Icecave\Parity\Comparator\ComparatorInterface">ComparatorInterface</abbr></a> $comparator)</code>
+    <strong>compare</strong>(object $value)</code>
     </h3>
     <div class="details">
-        <p>Compare this object with another value, yielding a result according to the following table:</p>
+        <p>Compare this object with another object of the same type, yielding a result according to the following table:</p>
         <p>+--------------------+---------------+
 | Condition          | Result        |
 +--------------------+---------------+
@@ -64,14 +69,9 @@
 
                     <table>
                     <tr>
-                <td>mixed</td>
+                <td>object</td>
                 <td>$value</td>
-                <td>The value to compare.</td>
-            </tr>
-                    <tr>
-                <td><a href="../../Icecave/Parity/Comparator/ComparatorInterface.html"><abbr title="Icecave\Parity\Comparator\ComparatorInterface">ComparatorInterface</abbr></a></td>
-                <td>$comparator</td>
-                <td>The comparator being used to perform the comparison.</td>
+                <td>The object to compare.</td>
             </tr>
             </table>
 
@@ -91,7 +91,7 @@
                     <table>
                     <tr>
                 <td><abbr title="Exception\NotComparableException">NotComparableException</abbr></td>
-                <td>Indicates that the implementation does not know how to compare $this to $value.</td>
+                <td>if $value is not the same type as $this.</td>
             </tr>
             </table>
 

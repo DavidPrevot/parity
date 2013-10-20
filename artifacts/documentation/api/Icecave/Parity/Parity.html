@@ -35,7 +35,17 @@
                     static&nbsp;integer
                 </td>
                 <td class="last">
-                    <a href="#method_compare">compare</a>(mixed $lhs, mixed $rhs, boolean $deep = true)
+                    <a href="#method_compare">compare</a>(mixed $lhs, mixed $rhs)
+                    <p>Compare two values, yeilding a result according to the following table:</p>
+                </td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type">
+                    static&nbsp;boolean
+                </td>
+                <td class="last">
+                    <a href="#method_isEqualTo">isEqualTo</a>(mixed $lhs, mixed $rhs)
                     <p>
 </p>
                 </td>
@@ -46,7 +56,7 @@
                     static&nbsp;boolean
                 </td>
                 <td class="last">
-                    <a href="#method_isEqualTo">isEqualTo</a>(mixed $lhs, mixed $rhs, boolean $deep = true)
+                    <a href="#method_isNotEqualTo">isNotEqualTo</a>(mixed $lhs, mixed $rhs)
                     <p>
 </p>
                 </td>
@@ -57,7 +67,7 @@
                     static&nbsp;boolean
                 </td>
                 <td class="last">
-                    <a href="#method_isNotEqualTo">isNotEqualTo</a>(mixed $lhs, mixed $rhs, boolean $deep = true)
+                    <a href="#method_isLessThan">isLessThan</a>(mixed $lhs, mixed $rhs)
                     <p>
 </p>
                 </td>
@@ -68,7 +78,7 @@
                     static&nbsp;boolean
                 </td>
                 <td class="last">
-                    <a href="#method_isLessThan">isLessThan</a>(mixed $lhs, mixed $rhs, boolean $deep = true)
+                    <a href="#method_isGreaterThan">isGreaterThan</a>(mixed $lhs, mixed $rhs)
                     <p>
 </p>
                 </td>
@@ -79,7 +89,7 @@
                     static&nbsp;boolean
                 </td>
                 <td class="last">
-                    <a href="#method_isGreaterThan">isGreaterThan</a>(mixed $lhs, mixed $rhs, boolean $deep = true)
+                    <a href="#method_isLessThanOrEqualTo">isLessThanOrEqualTo</a>(mixed $lhs, mixed $rhs)
                     <p>
 </p>
                 </td>
@@ -90,7 +100,7 @@
                     static&nbsp;boolean
                 </td>
                 <td class="last">
-                    <a href="#method_isLessThanOrEqualTo">isLessThanOrEqualTo</a>(mixed $lhs, mixed $rhs, boolean $deep = true)
+                    <a href="#method_isGreaterThanOrEqualTo">isGreaterThanOrEqualTo</a>(mixed $lhs, mixed $rhs)
                     <p>
 </p>
                 </td>
@@ -98,12 +108,11 @@
             </tr>
                     <tr>
                 <td class="type">
-                    static&nbsp;boolean
+                    static&nbsp;<abbr title="Icecave\Parity\ComparatorInterface">ComparatorInterface</abbr>
                 </td>
                 <td class="last">
-                    <a href="#method_isGreaterThanOrEqualTo">isGreaterThanOrEqualTo</a>(mixed $lhs, mixed $rhs, boolean $deep = true)
-                    <p>
-</p>
+                    <a href="#method_comparator">comparator</a>()
+                    <p>Get the internal Parity comparator.</p>
                 </td>
                 <td></td>
             </tr>
@@ -113,15 +122,19 @@
         <h2>Details</h2>
 
                         <h3 id="method_compare">
-        <div class="location">at line 17</div>
+        <div class="location">at line 27</div>
         <code>        static    public            integer
-    <strong>compare</strong>(mixed $lhs, mixed $rhs, boolean $deep = true)</code>
+    <strong>compare</strong>(mixed $lhs, mixed $rhs)</code>
     </h3>
     <div class="details">
-        <p>
-</p>
-        <p>
-</p>
+        <p>Compare two values, yeilding a result according to the following table:</p>
+        <p>+--------------------+---------------+
+| Condition          | Result        |
++--------------------+---------------+
+| $this == $value    | $result === 0 |
+| $this &lt; $value     | $result &lt; 0   |
+| $this > $value     | $result > 0   |
++--------------------+---------------+</p>
         <div class="tags">
                             <h4>Parameters</h4>
 
@@ -129,19 +142,12 @@
                     <tr>
                 <td>mixed</td>
                 <td>$lhs</td>
-                <td>
-</td>
+                <td>The first value to compare.</td>
             </tr>
                     <tr>
                 <td>mixed</td>
                 <td>$rhs</td>
-                <td>
-</td>
-            </tr>
-                    <tr>
-                <td>boolean</td>
-                <td>$deep</td>
-                <td>True to do a deep comparasion.</td>
+                <td>The second value to compare.</td>
             </tr>
             </table>
 
@@ -161,9 +167,9 @@
     </div>
 
                 <h3 id="method_isEqualTo">
-        <div class="location">at line 43</div>
+        <div class="location">at line 40</div>
         <code>        static    public            boolean
-    <strong>isEqualTo</strong>(mixed $lhs, mixed $rhs, boolean $deep = true)</code>
+    <strong>isEqualTo</strong>(mixed $lhs, mixed $rhs)</code>
     </h3>
     <div class="details">
         <p>
@@ -183,11 +189,6 @@
                 <td>mixed</td>
                 <td>$rhs</td>
                 <td>The second value to compare.</td>
-            </tr>
-                    <tr>
-                <td>boolean</td>
-                <td>$deep</td>
-                <td>True to do a deep comparasion.</td>
             </tr>
             </table>
 
@@ -207,9 +208,9 @@
     </div>
 
                 <h3 id="method_isNotEqualTo">
-        <div class="location">at line 57</div>
+        <div class="location">at line 53</div>
         <code>        static    public            boolean
-    <strong>isNotEqualTo</strong>(mixed $lhs, mixed $rhs, boolean $deep = true)</code>
+    <strong>isNotEqualTo</strong>(mixed $lhs, mixed $rhs)</code>
     </h3>
     <div class="details">
         <p>
@@ -229,11 +230,6 @@
                 <td>mixed</td>
                 <td>$rhs</td>
                 <td>The second value to compare.</td>
-            </tr>
-                    <tr>
-                <td>boolean</td>
-                <td>$deep</td>
-                <td>True to do a deep comparasion.</td>
             </tr>
             </table>
 
@@ -253,9 +249,9 @@
     </div>
 
                 <h3 id="method_isLessThan">
-        <div class="location">at line 71</div>
+        <div class="location">at line 66</div>
         <code>        static    public            boolean
-    <strong>isLessThan</strong>(mixed $lhs, mixed $rhs, boolean $deep = true)</code>
+    <strong>isLessThan</strong>(mixed $lhs, mixed $rhs)</code>
     </h3>
     <div class="details">
         <p>
@@ -275,11 +271,6 @@
                 <td>mixed</td>
                 <td>$rhs</td>
                 <td>The second value to compare.</td>
-            </tr>
-                    <tr>
-                <td>boolean</td>
-                <td>$deep</td>
-                <td>True to do a deep comparasion.</td>
             </tr>
             </table>
 
@@ -299,9 +290,9 @@
     </div>
 
                 <h3 id="method_isGreaterThan">
-        <div class="location">at line 85</div>
+        <div class="location">at line 79</div>
         <code>        static    public            boolean
-    <strong>isGreaterThan</strong>(mixed $lhs, mixed $rhs, boolean $deep = true)</code>
+    <strong>isGreaterThan</strong>(mixed $lhs, mixed $rhs)</code>
     </h3>
     <div class="details">
         <p>
@@ -321,11 +312,6 @@
                 <td>mixed</td>
                 <td>$rhs</td>
                 <td>The second value to compare.</td>
-            </tr>
-                    <tr>
-                <td>boolean</td>
-                <td>$deep</td>
-                <td>True to do a deep comparasion.</td>
             </tr>
             </table>
 
@@ -345,9 +331,9 @@
     </div>
 
                 <h3 id="method_isLessThanOrEqualTo">
-        <div class="location">at line 99</div>
+        <div class="location">at line 92</div>
         <code>        static    public            boolean
-    <strong>isLessThanOrEqualTo</strong>(mixed $lhs, mixed $rhs, boolean $deep = true)</code>
+    <strong>isLessThanOrEqualTo</strong>(mixed $lhs, mixed $rhs)</code>
     </h3>
     <div class="details">
         <p>
@@ -367,11 +353,6 @@
                 <td>mixed</td>
                 <td>$rhs</td>
                 <td>The second value to compare.</td>
-            </tr>
-                    <tr>
-                <td>boolean</td>
-                <td>$deep</td>
-                <td>True to do a deep comparasion.</td>
             </tr>
             </table>
 
@@ -391,9 +372,9 @@
     </div>
 
                 <h3 id="method_isGreaterThanOrEqualTo">
-        <div class="location">at line 113</div>
+        <div class="location">at line 105</div>
         <code>        static    public            boolean
-    <strong>isGreaterThanOrEqualTo</strong>(mixed $lhs, mixed $rhs, boolean $deep = true)</code>
+    <strong>isGreaterThanOrEqualTo</strong>(mixed $lhs, mixed $rhs)</code>
     </h3>
     <div class="details">
         <p>
@@ -414,11 +395,6 @@
                 <td>$rhs</td>
                 <td>The second value to compare.</td>
             </tr>
-                    <tr>
-                <td>boolean</td>
-                <td>$deep</td>
-                <td>True to do a deep comparasion.</td>
-            </tr>
             </table>
 
             
@@ -428,6 +404,32 @@
         <tr>
             <td>boolean</td>
             <td>True if $lhs >= $rhs.</td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+                <h3 id="method_comparator">
+        <div class="location">at line 120</div>
+        <code>        static    public            <abbr title="Icecave\Parity\ComparatorInterface">ComparatorInterface</abbr>
+    <strong>comparator</strong>()</code>
+    </h3>
+    <div class="details">
+        <p>Get the internal Parity comparator.</p>
+        <p>The comparator returned by this method in such as way as to enforce the
+documented rules of Parity's comparison engine.</p>
+        <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table>
+        <tr>
+            <td><abbr title="Icecave\Parity\ComparatorInterface">ComparatorInterface</abbr></td>
+            <td>
+</td>
         </tr>
     </table>
 

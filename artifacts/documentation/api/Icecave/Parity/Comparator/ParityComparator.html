@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="robots" content="index, follow, all" />
-        <title>Icecave\Parity\Comparator\DeepComparator | Parity API</title>
+        <title>Icecave\Parity\Comparator\ParityComparator | Parity API</title>
                     <link rel="stylesheet" type="text/css" href="../../../stylesheet.css">
                             </head>
         <body id="class">
@@ -19,15 +19,16 @@
         <div id="title">Parity API</div>
 
             <div class="type">Class</div>
-    <h1><a href="../../../Icecave/Parity/Comparator.html">Icecave\Parity\Comparator</a>\DeepComparator</h1>
+    <h1><a href="../../../Icecave/Parity/Comparator.html">Icecave\Parity\Comparator</a>\ParityComparator</h1>
     </div>
         <div class="content">
-                <p>class    <strong>DeepComparator</strong>        implements
+                <p>class    <strong>ParityComparator</strong>        implements
         <a href="../../../Icecave/Parity/Comparator/ComparatorInterface.html"><abbr title="Icecave\Parity\Comparator\ComparatorInterface">ComparatorInterface</abbr></a></p>
 
             <div class="description">
-            <p>A comparator that performs deep comparison of PHP arrays and objects.</p>
-            <p>Comparison of objects is recursion-safe.</p>
+            <p>A comparator that dispatches comparison operations to the appropriate algorithm based on the comparable interfaces that the operands implement.</p>
+            <p>
+</p>
         </div>
     
     
@@ -40,8 +41,9 @@
                     
                 </td>
                 <td class="last">
-                    <a href="#method___construct">__construct</a>(<a href="../../../Icecave/Parity/Comparator/ComparatorInterface.html"><abbr title="Icecave\Parity\Comparator\ComparatorInterface">ComparatorInterface</abbr></a> $fallbackComparator, boolean $relaxClassComparisons = false)
-                    <p>If $relaxClassComparisons is true, class names are not included in the comparison of objects.</p>
+                    <a href="#method___construct">__construct</a>(<a href="../../../Icecave/Parity/Comparator/ComparatorInterface.html"><abbr title="Icecave\Parity\Comparator\ComparatorInterface">ComparatorInterface</abbr></a> $fallbackComparator)
+                    <p>
+</p>
                 </td>
                 <td></td>
             </tr>
@@ -71,12 +73,13 @@
         <h2>Details</h2>
 
                         <h3 id="method___construct">
-        <div class="location">at line 21</div>
+        <div class="location">at line 19</div>
         <code>            public            
-    <strong>__construct</strong>(<a href="../../../Icecave/Parity/Comparator/ComparatorInterface.html"><abbr title="Icecave\Parity\Comparator\ComparatorInterface">ComparatorInterface</abbr></a> $fallbackComparator, boolean $relaxClassComparisons = false)</code>
+    <strong>__construct</strong>(<a href="../../../Icecave/Parity/Comparator/ComparatorInterface.html"><abbr title="Icecave\Parity\Comparator\ComparatorInterface">ComparatorInterface</abbr></a> $fallbackComparator)</code>
     </h3>
     <div class="details">
-        <p>If $relaxClassComparisons is true, class names are not included in the comparison of objects.</p>
+        <p>
+</p>
         <p>
 </p>
         <div class="tags">
@@ -86,12 +89,7 @@
                     <tr>
                 <td><a href="../../../Icecave/Parity/Comparator/ComparatorInterface.html"><abbr title="Icecave\Parity\Comparator\ComparatorInterface">ComparatorInterface</abbr></a></td>
                 <td>$fallbackComparator</td>
-                <td>The comparator to use when the operands are not arrays or objects.</td>
-            </tr>
-                    <tr>
-                <td>boolean</td>
-                <td>$relaxClassComparisons</td>
-                <td>True to relax class name comparisons; false to compare strictly.</td>
+                <td>The comparator to use when the operands do not provide their own comparison algorithm.</td>
             </tr>
             </table>
 
@@ -102,7 +100,7 @@
     </div>
 
                 <h3 id="method_fallbackComparator">
-        <div class="location">at line 36</div>
+        <div class="location">at line 32</div>
         <code>            public            <abbr title="Icecave\Parity\Comparator\The">The</abbr>
     <strong>fallbackComparator</strong>()</code>
     </h3>
@@ -117,7 +115,7 @@
                     <table>
         <tr>
             <td><abbr title="Icecave\Parity\Comparator\The">The</abbr></td>
-            <td>comparator to use when the operands are not arrays or objects.</td>
+            <td>comparator to use when the operands do not provide their own comparison algorithm.</td>
         </tr>
     </table>
 
@@ -127,7 +125,7 @@
     </div>
 
                 <h3 id="method_compare">
-        <div class="location">at line 62</div>
+        <div class="location">at line 61</div>
         <code>            public            integer
     <strong>compare</strong>(mixed $lhs, mixed $rhs)</code>
     </h3>
@@ -141,8 +139,11 @@
 | $this > $value     | $result > 0   |
 +--------------------+---------------+</p>
 
-<p>A deep comparison is performed if both operands are arrays, or both are
-objects; otherwise, the fallback comparator is used.</p>
+<p>If either of the operands implements one of the Parity comparator
+interfaces and is able to perform the comparison to the other operand
+its compare() method is used to perform the comparison. If neither
+operand provides a suitable implementation, the fallback comparator
+is used.</p>
         <div class="tags">
                             <h4>Parameters</h4>
 
