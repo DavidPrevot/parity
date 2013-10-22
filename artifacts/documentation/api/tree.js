@@ -16,5 +16,6 @@ var tree = [["Icecave",,"",
                 [        ]],["Parity","Icecave\/Parity\/Parity.html","",
                 [        ]],["RestrictedComparableInterface","Icecave\/Parity\/RestrictedComparableInterface.html","",
                 [        ]],["SelfComparableInterface","Icecave\/Parity\/SelfComparableInterface.html","",
+                [        ]],["SubClassComparableInterface","Icecave\/Parity\/SubClassComparableInterface.html","",
                 [        ]]        ]]        ]]        ]
 
