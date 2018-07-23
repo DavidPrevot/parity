@@ -8,7 +8,7 @@ use Icecave\Parity\Comparator\StrictPhpComparator;
 abstract class Parity
 {
     /**
-     * Compare two values, yeilding a result according to the following table:
+     * Compare two values, yielding a result according to the following table:
      *
      * +--------------------+---------------+
      * | Condition          | Result        |
